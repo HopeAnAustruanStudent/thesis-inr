@@ -1,0 +1,2282 @@
+[
+  {
+    "image": "kodim01.png",
+    "batch_size": 256,
+    "psnr": 19.466485395085822,
+    "ssim": 0.298313170671463,
+    "spectral_band_errors": [
+      0.3728320300579071,
+      3.561551094055176,
+      6.359214782714844
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.84456609998597,
+    "n_parameters": 264707,
+    "final_loss": 0.01021408662199974
+  },
+  {
+    "image": "kodim01.png",
+    "batch_size": 1024,
+    "psnr": 20.99118787992452,
+    "ssim": 0.4175126552581787,
+    "spectral_band_errors": [
+      0.23103222250938416,
+      3.459775686264038,
+      6.18681001663208
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.20051950000925,
+    "n_parameters": 264707,
+    "final_loss": 0.007376149296760559
+  },
+  {
+    "image": "kodim01.png",
+    "batch_size": 4096,
+    "psnr": 23.09377533197592,
+    "ssim": 0.5804247856140137,
+    "spectral_band_errors": [
+      0.029615789651870728,
+      1.4034541845321655,
+      3.9197371006011963
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.5732818999968,
+    "n_parameters": 264707,
+    "final_loss": 0.005016119219362736
+  },
+  {
+    "image": "kodim01.png",
+    "batch_size": 16384,
+    "psnr": 25.51561489718313,
+    "ssim": 0.7319963574409485,
+    "spectral_band_errors": [
+      0.0019471466075628996,
+      0.22202171385288239,
+      1.363731861114502
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 30.449377800017828,
+    "n_parameters": 264707,
+    "final_loss": 0.0027214973233640194
+  },
+  {
+    "image": "kodim01.png",
+    "batch_size": "full",
+    "psnr": 32.820427315467526,
+    "ssim": 0.9354054927825928,
+    "spectral_band_errors": [
+      0.000179089984158054,
+      0.0013077339390292764,
+      0.03137781098484993
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 231.34161269999458,
+    "n_parameters": 264707,
+    "final_loss": 0.0005247934604994953
+  },
+  {
+    "image": "kodim02.png",
+    "batch_size": 256,
+    "psnr": 25.396444489471378,
+    "ssim": 0.6252248883247375,
+    "spectral_band_errors": [
+      0.29213210940361023,
+      2.3551318645477295,
+      3.434114694595337
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.006408199988073,
+    "n_parameters": 264707,
+    "final_loss": 0.0033219214528799057
+  },
+  {
+    "image": "kodim02.png",
+    "batch_size": 1024,
+    "psnr": 27.47608217607865,
+    "ssim": 0.687175452709198,
+    "spectral_band_errors": [
+      0.22246786952018738,
+      2.2953436374664307,
+      3.26948618888855
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.10490700000082,
+    "n_parameters": 264707,
+    "final_loss": 0.0019992636516690254
+  },
+  {
+    "image": "kodim02.png",
+    "batch_size": 4096,
+    "psnr": 29.270873472395458,
+    "ssim": 0.7420893311500549,
+    "spectral_band_errors": [
+      0.05059335380792618,
+      1.1234662532806396,
+      2.1046862602233887
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.587700300005963,
+    "n_parameters": 264707,
+    "final_loss": 0.0013401387259364128
+  },
+  {
+    "image": "kodim02.png",
+    "batch_size": 16384,
+    "psnr": 31.079227048159375,
+    "ssim": 0.7899454236030579,
+    "spectral_band_errors": [
+      0.00682163005694747,
+      0.33305680751800537,
+      1.086531400680542
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 30.418281099991873,
+    "n_parameters": 264707,
+    "final_loss": 0.0007612463086843491
+  },
+  {
+    "image": "kodim02.png",
+    "batch_size": "full",
+    "psnr": 34.168099624574275,
+    "ssim": 0.8723594546318054,
+    "spectral_band_errors": [
+      0.0012452960945665836,
+      0.03800394758582115,
+      0.3069474995136261
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 231.40885740000522,
+    "n_parameters": 264707,
+    "final_loss": 0.0003823538718279451
+  },
+  {
+    "image": "kodim03.png",
+    "batch_size": 256,
+    "psnr": 25.656831478688428,
+    "ssim": 0.7222068905830383,
+    "spectral_band_errors": [
+      0.3275251090526581,
+      2.3303208351135254,
+      2.8168935775756836
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.116787500010105,
+    "n_parameters": 264707,
+    "final_loss": 0.0037274870555847883
+  },
+  {
+    "image": "kodim03.png",
+    "batch_size": 1024,
+    "psnr": 27.709074113438806,
+    "ssim": 0.782275378704071,
+    "spectral_band_errors": [
+      0.12989294528961182,
+      1.2970961332321167,
+      1.77973210811615
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.09020600002259,
+    "n_parameters": 264707,
+    "final_loss": 0.0017591876676306129
+  },
+  {
+    "image": "kodim03.png",
+    "batch_size": 4096,
+    "psnr": 29.610649712006335,
+    "ssim": 0.8266640305519104,
+    "spectral_band_errors": [
+      0.02868996188044548,
+      0.6589468717575073,
+      1.0725058317184448
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.820774099993287,
+    "n_parameters": 264707,
+    "final_loss": 0.0010397961596027017
+  },
+  {
+    "image": "kodim03.png",
+    "batch_size": 16384,
+    "psnr": 32.364296049026414,
+    "ssim": 0.8787992000579834,
+    "spectral_band_errors": [
+      0.003856678493320942,
+      0.19057215750217438,
+      0.49172544479370117
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 30.635098800004926,
+    "n_parameters": 264707,
+    "final_loss": 0.0005888616433367133
+  },
+  {
+    "image": "kodim03.png",
+    "batch_size": "full",
+    "psnr": 36.87695550365158,
+    "ssim": 0.941384494304657,
+    "spectral_band_errors": [
+      0.0005865286220796406,
+      0.017147226259112358,
+      0.09923946857452393
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 232.48731689999113,
+    "n_parameters": 264707,
+    "final_loss": 0.00020574312657117844
+  },
+  {
+    "image": "kodim04.png",
+    "batch_size": 256,
+    "psnr": 24.312337465643246,
+    "ssim": 0.6162182092666626,
+    "spectral_band_errors": [
+      0.35415977239608765,
+      2.537574529647827,
+      3.4372076988220215
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.21433730001445,
+    "n_parameters": 264707,
+    "final_loss": 0.0034646373242139816
+  },
+  {
+    "image": "kodim04.png",
+    "batch_size": 1024,
+    "psnr": 26.04824143044055,
+    "ssim": 0.6885795593261719,
+    "spectral_band_errors": [
+      0.17892079055309296,
+      1.7274723052978516,
+      2.7851126194000244
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.136521599983098,
+    "n_parameters": 264707,
+    "final_loss": 0.0024592475965619087
+  },
+  {
+    "image": "kodim04.png",
+    "batch_size": 4096,
+    "psnr": 28.001631288121843,
+    "ssim": 0.7536901831626892,
+    "spectral_band_errors": [
+      0.0389421246945858,
+      0.9043623805046082,
+      1.841855764389038
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.597073399985675,
+    "n_parameters": 264707,
+    "final_loss": 0.0015511054079979658
+  },
+  {
+    "image": "kodim04.png",
+    "batch_size": 16384,
+    "psnr": 30.93161919492522,
+    "ssim": 0.8249173164367676,
+    "spectral_band_errors": [
+      0.0035767224617302418,
+      0.3034128248691559,
+      0.9640073776245117
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 30.444160899991402,
+    "n_parameters": 264707,
+    "final_loss": 0.00082928198389709
+  },
+  {
+    "image": "kodim04.png",
+    "batch_size": "full",
+    "psnr": 35.57475601409604,
+    "ssim": 0.9153392910957336,
+    "spectral_band_errors": [
+      0.00023292827245313674,
+      0.018317701295018196,
+      0.19099444150924683
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 231.83752149998327,
+    "n_parameters": 264707,
+    "final_loss": 0.0002777830231934786
+  },
+  {
+    "image": "kodim05.png",
+    "batch_size": 256,
+    "psnr": 18.208714560843752,
+    "ssim": 0.3380400240421295,
+    "spectral_band_errors": [
+      0.5444480180740356,
+      3.7327802181243896,
+      5.672152042388916
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.193514199985657,
+    "n_parameters": 264707,
+    "final_loss": 0.01648911088705063
+  },
+  {
+    "image": "kodim05.png",
+    "batch_size": 1024,
+    "psnr": 20.10518551247408,
+    "ssim": 0.4871319830417633,
+    "spectral_band_errors": [
+      0.18426918983459473,
+      2.268730878829956,
+      3.9108965396881104
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.166694999992615,
+    "n_parameters": 264707,
+    "final_loss": 0.00879446230828762
+  },
+  {
+    "image": "kodim05.png",
+    "batch_size": 4096,
+    "psnr": 22.12100289795532,
+    "ssim": 0.6358857154846191,
+    "spectral_band_errors": [
+      0.02274528332054615,
+      0.6803131103515625,
+      1.6122636795043945
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.62209879999864,
+    "n_parameters": 264707,
+    "final_loss": 0.006448316387832165
+  },
+  {
+    "image": "kodim05.png",
+    "batch_size": 16384,
+    "psnr": 25.283725599178716,
+    "ssim": 0.7933640480041504,
+    "spectral_band_errors": [
+      0.0015891236253082752,
+      0.10046360641717911,
+      0.43356701731681824
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 30.425609099998837,
+    "n_parameters": 264707,
+    "final_loss": 0.0031503743957728148
+  },
+  {
+    "image": "kodim05.png",
+    "batch_size": "full",
+    "psnr": 31.113460648695003,
+    "ssim": 0.9242667555809021,
+    "spectral_band_errors": [
+      0.0003212473529856652,
+      0.0022395248524844646,
+      0.029936285689473152
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 231.8006104999804,
+    "n_parameters": 264707,
+    "final_loss": 0.0007760145235806704
+  },
+  {
+    "image": "kodim06.png",
+    "batch_size": 256,
+    "psnr": 20.83045894735154,
+    "ssim": 0.44066300988197327,
+    "spectral_band_errors": [
+      0.37883543968200684,
+      3.398042917251587,
+      5.4026994705200195
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.299728499987395,
+    "n_parameters": 264707,
+    "final_loss": 0.00695523526519537
+  },
+  {
+    "image": "kodim06.png",
+    "batch_size": 1024,
+    "psnr": 22.414478234756814,
+    "ssim": 0.5208352208137512,
+    "spectral_band_errors": [
+      0.3569750487804413,
+      3.581580638885498,
+      5.567994594573975
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.14687190001132,
+    "n_parameters": 264707,
+    "final_loss": 0.006938533391803503
+  },
+  {
+    "image": "kodim06.png",
+    "batch_size": 4096,
+    "psnr": 24.11835889231898,
+    "ssim": 0.6266173720359802,
+    "spectral_band_errors": [
+      0.0529802143573761,
+      1.5850623846054077,
+      3.651064872741699
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.60834030000842,
+    "n_parameters": 264707,
+    "final_loss": 0.003710353747010231
+  },
+  {
+    "image": "kodim06.png",
+    "batch_size": 16384,
+    "psnr": 27.10690570483038,
+    "ssim": 0.7806412577629089,
+    "spectral_band_errors": [
+      0.001891633728519082,
+      0.2158234566450119,
+      1.125925064086914
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 30.459894300001906,
+    "n_parameters": 264707,
+    "final_loss": 0.0019815582782030106
+  },
+  {
+    "image": "kodim06.png",
+    "batch_size": "full",
+    "psnr": 32.06597501590445,
+    "ssim": 0.9069874286651611,
+    "spectral_band_errors": [
+      0.0005521154380403459,
+      0.013876368291676044,
+      0.13237819075584412
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 231.85716189999948,
+    "n_parameters": 264707,
+    "final_loss": 0.0006183715886436403
+  },
+  {
+    "image": "kodim07.png",
+    "batch_size": 256,
+    "psnr": 22.16464063565247,
+    "ssim": 0.6007356643676758,
+    "spectral_band_errors": [
+      0.4233832061290741,
+      2.3744752407073975,
+      3.4892122745513916
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.371103800018318,
+    "n_parameters": 264707,
+    "final_loss": 0.00589539622887969
+  },
+  {
+    "image": "kodim07.png",
+    "batch_size": 1024,
+    "psnr": 25.104373031926947,
+    "ssim": 0.765845000743866,
+    "spectral_band_errors": [
+      0.11253496259450912,
+      1.455138921737671,
+      2.5982699394226074
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.161705100006657,
+    "n_parameters": 264707,
+    "final_loss": 0.0031165299005806446
+  },
+  {
+    "image": "kodim07.png",
+    "batch_size": 4096,
+    "psnr": 28.40469284786402,
+    "ssim": 0.8686372637748718,
+    "spectral_band_errors": [
+      0.007018410600721836,
+      0.4127020835876465,
+      1.1674630641937256
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.543777500017313,
+    "n_parameters": 264707,
+    "final_loss": 0.0013742493465542793
+  },
+  {
+    "image": "kodim07.png",
+    "batch_size": 16384,
+    "psnr": 32.10076764916749,
+    "ssim": 0.9280757904052734,
+    "spectral_band_errors": [
+      0.0008576601976528764,
+      0.05227961763739586,
+      0.2774481773376465
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 30.597302299982402,
+    "n_parameters": 264707,
+    "final_loss": 0.0006252900930121541
+  },
+  {
+    "image": "kodim07.png",
+    "batch_size": "full",
+    "psnr": 38.09679607124001,
+    "ssim": 0.9695519804954529,
+    "spectral_band_errors": [
+      7.935514440760016e-05,
+      0.001653454382903874,
+      0.026827510446310043
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 231.89785269999993,
+    "n_parameters": 264707,
+    "final_loss": 0.00015268567949533463
+  },
+  {
+    "image": "kodim08.png",
+    "batch_size": 256,
+    "psnr": 16.14587045265771,
+    "ssim": 0.2968946397304535,
+    "spectral_band_errors": [
+      0.28413131833076477,
+      2.3620290756225586,
+      4.78260612487793
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.343196500005433,
+    "n_parameters": 264707,
+    "final_loss": 0.029715482145547867
+  },
+  {
+    "image": "kodim08.png",
+    "batch_size": 1024,
+    "psnr": 18.067469647123417,
+    "ssim": 0.44850945472717285,
+    "spectral_band_errors": [
+      0.14671437442302704,
+      2.4288251399993896,
+      5.023319244384766
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.16868600001908,
+    "n_parameters": 264707,
+    "final_loss": 0.014497645199298859
+  },
+  {
+    "image": "kodim08.png",
+    "batch_size": 4096,
+    "psnr": 20.062499690207982,
+    "ssim": 0.592840850353241,
+    "spectral_band_errors": [
+      0.02157808467745781,
+      0.9814231395721436,
+      2.9937496185302734
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.66082419999293,
+    "n_parameters": 264707,
+    "final_loss": 0.010194409638643265
+  },
+  {
+    "image": "kodim08.png",
+    "batch_size": 16384,
+    "psnr": 23.000359669014998,
+    "ssim": 0.7455337643623352,
+    "spectral_band_errors": [
+      0.0011285217478871346,
+      0.12487749010324478,
+      0.6913992166519165
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 30.663803300005384,
+    "n_parameters": 264707,
+    "final_loss": 0.004921515937894583
+  },
+  {
+    "image": "kodim08.png",
+    "batch_size": "full",
+    "psnr": 29.666263392938248,
+    "ssim": 0.9047659039497375,
+    "spectral_band_errors": [
+      0.00035107307485304773,
+      0.0035200456622987986,
+      0.047710102051496506
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 232.0725409000006,
+    "n_parameters": 264707,
+    "final_loss": 0.0010869582183659077
+  },
+  {
+    "image": "kodim09.png",
+    "batch_size": 256,
+    "psnr": 22.82703359806632,
+    "ssim": 0.6362879872322083,
+    "spectral_band_errors": [
+      0.3072870671749115,
+      2.1105480194091797,
+      3.1993863582611084
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.43012340000132,
+    "n_parameters": 264707,
+    "final_loss": 0.0049187298864126205
+  },
+  {
+    "image": "kodim09.png",
+    "batch_size": 1024,
+    "psnr": 25.580188138805916,
+    "ssim": 0.7435587048530579,
+    "spectral_band_errors": [
+      0.12137296050786972,
+      1.4278228282928467,
+      2.4441235065460205
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.300313399988227,
+    "n_parameters": 264707,
+    "final_loss": 0.0027193459682166576
+  },
+  {
+    "image": "kodim09.png",
+    "batch_size": 4096,
+    "psnr": 28.26653260683191,
+    "ssim": 0.8177067637443542,
+    "spectral_band_errors": [
+      0.018194330856204033,
+      0.5524218082427979,
+      1.371405005455017
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.72759369999403,
+    "n_parameters": 264707,
+    "final_loss": 0.0014602760784327984
+  },
+  {
+    "image": "kodim09.png",
+    "batch_size": 16384,
+    "psnr": 31.444448948439554,
+    "ssim": 0.8798267245292664,
+    "spectral_band_errors": [
+      0.0014501159312203526,
+      0.09156758338212967,
+      0.4798351526260376
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 30.549938500014832,
+    "n_parameters": 264707,
+    "final_loss": 0.000735245761461556
+  },
+  {
+    "image": "kodim09.png",
+    "batch_size": "full",
+    "psnr": 39.451241085983675,
+    "ssim": 0.9519668221473694,
+    "spectral_band_errors": [
+      9.75969378487207e-05,
+      0.001091835438273847,
+      0.016801094636321068
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 231.94129539999994,
+    "n_parameters": 264707,
+    "final_loss": 0.00011349676788086072
+  },
+  {
+    "image": "kodim10.png",
+    "batch_size": 256,
+    "psnr": 23.002018716661638,
+    "ssim": 0.61049485206604,
+    "spectral_band_errors": [
+      0.20269106328487396,
+      1.985116958618164,
+      3.054286479949951
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.444837699993514,
+    "n_parameters": 264707,
+    "final_loss": 0.003909121733158827
+  },
+  {
+    "image": "kodim10.png",
+    "batch_size": 1024,
+    "psnr": 24.98953310801614,
+    "ssim": 0.7122066617012024,
+    "spectral_band_errors": [
+      0.16122934222221375,
+      1.7666162252426147,
+      2.738154649734497
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.207940299995244,
+    "n_parameters": 264707,
+    "final_loss": 0.0027157501317560673
+  },
+  {
+    "image": "kodim10.png",
+    "batch_size": 4096,
+    "psnr": 28.040240876937254,
+    "ssim": 0.8046917915344238,
+    "spectral_band_errors": [
+      0.020958520472049713,
+      0.7113288640975952,
+      1.6322202682495117
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.786585599998944,
+    "n_parameters": 264707,
+    "final_loss": 0.0016875250730663538
+  },
+  {
+    "image": "kodim10.png",
+    "batch_size": 16384,
+    "psnr": 31.619627356376938,
+    "ssim": 0.8834454417228699,
+    "spectral_band_errors": [
+      0.0015859163831919432,
+      0.09012599289417267,
+      0.49816805124282837
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 30.621837200014852,
+    "n_parameters": 264707,
+    "final_loss": 0.0006951818941161036
+  },
+  {
+    "image": "kodim10.png",
+    "batch_size": "full",
+    "psnr": 38.92002861421754,
+    "ssim": 0.9571853280067444,
+    "spectral_band_errors": [
+      0.0001329017977695912,
+      0.0011268267408013344,
+      0.02094779536128044
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 231.96136549999937,
+    "n_parameters": 264707,
+    "final_loss": 0.00012793335190508515
+  },
+  {
+    "image": "kodim11.png",
+    "batch_size": 256,
+    "psnr": 21.62784272050462,
+    "ssim": 0.4957016408443451,
+    "spectral_band_errors": [
+      0.374600887298584,
+      3.4743220806121826,
+      5.7825422286987305
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.327682100003585,
+    "n_parameters": 264707,
+    "final_loss": 0.007688609417527914
+  },
+  {
+    "image": "kodim11.png",
+    "batch_size": 1024,
+    "psnr": 23.400866529238623,
+    "ssim": 0.5853427052497864,
+    "spectral_band_errors": [
+      0.251106858253479,
+      2.8987503051757812,
+      5.300076484680176
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.266278499999316,
+    "n_parameters": 264707,
+    "final_loss": 0.004738828167319298
+  },
+  {
+    "image": "kodim11.png",
+    "batch_size": 4096,
+    "psnr": 25.49625015786555,
+    "ssim": 0.6837922930717468,
+    "spectral_band_errors": [
+      0.02971302717924118,
+      0.9395244121551514,
+      2.562065362930298
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.676012899988564,
+    "n_parameters": 264707,
+    "final_loss": 0.0029582129791378975
+  },
+  {
+    "image": "kodim11.png",
+    "batch_size": 16384,
+    "psnr": 28.056540557758424,
+    "ssim": 0.7891432642936707,
+    "spectral_band_errors": [
+      0.0016260157572105527,
+      0.16434507071971893,
+      0.8252356052398682
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 30.52468050000607,
+    "n_parameters": 264707,
+    "final_loss": 0.0015301667153835297
+  },
+  {
+    "image": "kodim11.png",
+    "batch_size": "full",
+    "psnr": 34.46030148527583,
+    "ssim": 0.9269017577171326,
+    "spectral_band_errors": [
+      0.00024073728127405047,
+      0.002201731549575925,
+      0.03475352004170418
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 231.97605739999563,
+    "n_parameters": 264707,
+    "final_loss": 0.00035369014949537814
+  },
+  {
+    "image": "kodim12.png",
+    "batch_size": 256,
+    "psnr": 23.103589478168807,
+    "ssim": 0.6189109086990356,
+    "spectral_band_errors": [
+      0.12289135903120041,
+      1.5106743574142456,
+      2.4265875816345215
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.349517099995865,
+    "n_parameters": 264707,
+    "final_loss": 0.006388416048139334
+  },
+  {
+    "image": "kodim12.png",
+    "batch_size": 1024,
+    "psnr": 25.99127257206512,
+    "ssim": 0.7113711833953857,
+    "spectral_band_errors": [
+      0.12422249466180801,
+      1.3393383026123047,
+      2.251781702041626
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.700478100014152,
+    "n_parameters": 264707,
+    "final_loss": 0.0032687499187886715
+  },
+  {
+    "image": "kodim12.png",
+    "batch_size": 4096,
+    "psnr": 27.895933042413127,
+    "ssim": 0.7652251124382019,
+    "spectral_band_errors": [
+      0.03284084424376488,
+      0.9338472485542297,
+      1.8341859579086304
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.683230399998138,
+    "n_parameters": 264707,
+    "final_loss": 0.0014773070579394698
+  },
+  {
+    "image": "kodim12.png",
+    "batch_size": 16384,
+    "psnr": 31.333480788632006,
+    "ssim": 0.8325627446174622,
+    "spectral_band_errors": [
+      0.0031486658845096827,
+      0.28443047404289246,
+      0.8404361009597778
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 30.46978690000833,
+    "n_parameters": 264707,
+    "final_loss": 0.0007191314361989498
+  },
+  {
+    "image": "kodim12.png",
+    "batch_size": "full",
+    "psnr": 36.3741434370503,
+    "ssim": 0.9213014245033264,
+    "spectral_band_errors": [
+      0.00015032821102067828,
+      0.014823065139353275,
+      0.13130424916744232
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 231.78613960000803,
+    "n_parameters": 264707,
+    "final_loss": 0.00023261431488208473
+  },
+  {
+    "image": "kodim13.png",
+    "batch_size": 256,
+    "psnr": 17.913581793181322,
+    "ssim": 0.24597245454788208,
+    "spectral_band_errors": [
+      0.5556539297103882,
+      3.9862451553344727,
+      7.3103532791137695
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.090670000005048,
+    "n_parameters": 264707,
+    "final_loss": 0.018472066149115562
+  },
+  {
+    "image": "kodim13.png",
+    "batch_size": 1024,
+    "psnr": 19.150409552543692,
+    "ssim": 0.3324553370475769,
+    "spectral_band_errors": [
+      0.5090572834014893,
+      4.972118854522705,
+      8.372340202331543
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.260762899997644,
+    "n_parameters": 264707,
+    "final_loss": 0.012608332559466362
+  },
+  {
+    "image": "kodim13.png",
+    "batch_size": 4096,
+    "psnr": 20.32658944933251,
+    "ssim": 0.4435485899448395,
+    "spectral_band_errors": [
+      0.09321596473455429,
+      2.441682815551758,
+      5.676053524017334
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.680918300000485,
+    "n_parameters": 264707,
+    "final_loss": 0.008661732077598572
+  },
+  {
+    "image": "kodim13.png",
+    "batch_size": 16384,
+    "psnr": 22.150926442769403,
+    "ssim": 0.6032161116600037,
+    "spectral_band_errors": [
+      0.0037375292740762234,
+      0.414297491312027,
+      2.070270538330078
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 30.521657300007064,
+    "n_parameters": 264707,
+    "final_loss": 0.00588857289403677
+  },
+  {
+    "image": "kodim13.png",
+    "batch_size": "full",
+    "psnr": 29.131955131880037,
+    "ssim": 0.8812623620033264,
+    "spectral_band_errors": [
+      0.00045999535359442234,
+      0.0018898986745625734,
+      0.028142111375927925
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 231.86566330000642,
+    "n_parameters": 264707,
+    "final_loss": 0.0012174923904240131
+  },
+  {
+    "image": "kodim14.png",
+    "batch_size": 256,
+    "psnr": 20.806190169847664,
+    "ssim": 0.43680474162101746,
+    "spectral_band_errors": [
+      0.6010293960571289,
+      4.258917808532715,
+      6.096616744995117
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.094585999991978,
+    "n_parameters": 264707,
+    "final_loss": 0.008452076464891434
+  },
+  {
+    "image": "kodim14.png",
+    "batch_size": 1024,
+    "psnr": 22.688963125848428,
+    "ssim": 0.5454302430152893,
+    "spectral_band_errors": [
+      0.26424020528793335,
+      3.3228938579559326,
+      5.504279613494873
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.18754370001261,
+    "n_parameters": 264707,
+    "final_loss": 0.0043748244643211365
+  },
+  {
+    "image": "kodim14.png",
+    "batch_size": 4096,
+    "psnr": 24.646911981375194,
+    "ssim": 0.6676623821258545,
+    "spectral_band_errors": [
+      0.019818004220724106,
+      1.0107238292694092,
+      2.5587236881256104
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.636321700003464,
+    "n_parameters": 264707,
+    "final_loss": 0.0034256204962730408
+  },
+  {
+    "image": "kodim14.png",
+    "batch_size": 16384,
+    "psnr": 27.37480849756812,
+    "ssim": 0.7830774188041687,
+    "spectral_band_errors": [
+      0.0016601148527115583,
+      0.19207802414894104,
+      0.8500633239746094
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 30.650929199997336,
+    "n_parameters": 264707,
+    "final_loss": 0.001842606347054243
+  },
+  {
+    "image": "kodim14.png",
+    "batch_size": "full",
+    "psnr": 32.55968024083967,
+    "ssim": 0.9080297350883484,
+    "spectral_band_errors": [
+      0.0001337382709607482,
+      0.0047101592645049095,
+      0.07653658837080002
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 231.93810630001826,
+    "n_parameters": 264707,
+    "final_loss": 0.0005588321364484727
+  },
+  {
+    "image": "kodim15.png",
+    "batch_size": 256,
+    "psnr": 21.677955700464743,
+    "ssim": 0.6255701184272766,
+    "spectral_band_errors": [
+      0.08802370727062225,
+      0.935312807559967,
+      1.7261090278625488
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.196063700015657,
+    "n_parameters": 264707,
+    "final_loss": 0.007228625472635031
+  },
+  {
+    "image": "kodim15.png",
+    "batch_size": 1024,
+    "psnr": 24.170069791904012,
+    "ssim": 0.7150842547416687,
+    "spectral_band_errors": [
+      0.05917820706963539,
+      0.8443702459335327,
+      1.681480050086975
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.156106699985685,
+    "n_parameters": 264707,
+    "final_loss": 0.004079348873347044
+  },
+  {
+    "image": "kodim15.png",
+    "batch_size": 4096,
+    "psnr": 26.854365384790295,
+    "ssim": 0.769834041595459,
+    "spectral_band_errors": [
+      0.01908966340124607,
+      0.5188340544700623,
+      1.3468447923660278
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.679971800011117,
+    "n_parameters": 264707,
+    "final_loss": 0.002090678084641695
+  },
+  {
+    "image": "kodim15.png",
+    "batch_size": 16384,
+    "psnr": 29.24814435019136,
+    "ssim": 0.8131887316703796,
+    "spectral_band_errors": [
+      0.004121389240026474,
+      0.22687703371047974,
+      0.7298358678817749
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 31.050042899994878,
+    "n_parameters": 264707,
+    "final_loss": 0.0010992587776854634
+  },
+  {
+    "image": "kodim15.png",
+    "batch_size": "full",
+    "psnr": 32.94421623010427,
+    "ssim": 0.8743045926094055,
+    "spectral_band_errors": [
+      0.0004760306910611689,
+      0.04870585352182388,
+      0.29728618264198303
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 231.79399180001928,
+    "n_parameters": 264707,
+    "final_loss": 0.00050882447976619
+  },
+  {
+    "image": "kodim16.png",
+    "batch_size": 256,
+    "psnr": 24.900746359640355,
+    "ssim": 0.5759774446487427,
+    "spectral_band_errors": [
+      0.4386743903160095,
+      3.8383491039276123,
+      5.3509135246276855
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.768734999990556,
+    "n_parameters": 264707,
+    "final_loss": 0.0026140385307371616
+  },
+  {
+    "image": "kodim16.png",
+    "batch_size": 1024,
+    "psnr": 26.185926217631046,
+    "ssim": 0.631126344203949,
+    "spectral_band_errors": [
+      0.3232581615447998,
+      3.458894968032837,
+      5.124659538269043
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.12331759999506,
+    "n_parameters": 264707,
+    "final_loss": 0.002290463773533702
+  },
+  {
+    "image": "kodim16.png",
+    "batch_size": 4096,
+    "psnr": 27.400663091381865,
+    "ssim": 0.7010729312896729,
+    "spectral_band_errors": [
+      0.08624846488237381,
+      2.0589792728424072,
+      3.978287696838379
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.17667139999685,
+    "n_parameters": 264707,
+    "final_loss": 0.001710431999526918
+  },
+  {
+    "image": "kodim16.png",
+    "batch_size": 16384,
+    "psnr": 30.415048585858507,
+    "ssim": 0.8265030980110168,
+    "spectral_band_errors": [
+      0.0017287168884649873,
+      0.32576948404312134,
+      1.5933256149291992
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 30.857110200013267,
+    "n_parameters": 264707,
+    "final_loss": 0.0009146840311586857
+  },
+  {
+    "image": "kodim16.png",
+    "batch_size": "full",
+    "psnr": 36.70724722260688,
+    "ssim": 0.9470195174217224,
+    "spectral_band_errors": [
+      0.0001852326386142522,
+      0.002748155500739813,
+      0.060932498425245285
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 232.2699408000044,
+    "n_parameters": 264707,
+    "final_loss": 0.00021666519751306623
+  },
+  {
+    "image": "kodim17.png",
+    "batch_size": 256,
+    "psnr": 22.76215425671635,
+    "ssim": 0.5890114307403564,
+    "spectral_band_errors": [
+      0.3058246374130249,
+      2.5737693309783936,
+      3.9508912563323975
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.294096400000853,
+    "n_parameters": 264707,
+    "final_loss": 0.008420459926128387
+  },
+  {
+    "image": "kodim17.png",
+    "batch_size": 1024,
+    "psnr": 25.494588335862982,
+    "ssim": 0.7216201424598694,
+    "spectral_band_errors": [
+      0.16741272807121277,
+      2.17427659034729,
+      3.752821922302246
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.28973540000152,
+    "n_parameters": 264707,
+    "final_loss": 0.002964320359751582
+  },
+  {
+    "image": "kodim17.png",
+    "batch_size": 4096,
+    "psnr": 27.591303988379448,
+    "ssim": 0.8085038661956787,
+    "spectral_band_errors": [
+      0.02255716174840927,
+      0.7130591869354248,
+      1.9419060945510864
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.681008799991105,
+    "n_parameters": 264707,
+    "final_loss": 0.0016700667329132557
+  },
+  {
+    "image": "kodim17.png",
+    "batch_size": 16384,
+    "psnr": 30.084648093423265,
+    "ssim": 0.8757415413856506,
+    "spectral_band_errors": [
+      0.003235233249142766,
+      0.16791704297065735,
+      0.6774231791496277
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 30.65098139998736,
+    "n_parameters": 264707,
+    "final_loss": 0.0008905185386538506
+  },
+  {
+    "image": "kodim17.png",
+    "batch_size": "full",
+    "psnr": 35.131318063848134,
+    "ssim": 0.9352229237556458,
+    "spectral_band_errors": [
+      0.00033028965117409825,
+      0.005569078028202057,
+      0.06125086545944214
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 231.6560298000113,
+    "n_parameters": 264707,
+    "final_loss": 0.00030789923039264977
+  },
+  {
+    "image": "kodim18.png",
+    "batch_size": 256,
+    "psnr": 20.743488982467383,
+    "ssim": 0.4181321859359741,
+    "spectral_band_errors": [
+      0.6366644501686096,
+      3.9330904483795166,
+      5.817154884338379
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.05417899999884,
+    "n_parameters": 264707,
+    "final_loss": 0.009159168228507042
+  },
+  {
+    "image": "kodim18.png",
+    "batch_size": 1024,
+    "psnr": 22.046598301703483,
+    "ssim": 0.503534734249115,
+    "spectral_band_errors": [
+      0.4330896735191345,
+      3.6257779598236084,
+      5.256332874298096
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.315642499976093,
+    "n_parameters": 264707,
+    "final_loss": 0.0053582205437123775
+  },
+  {
+    "image": "kodim18.png",
+    "batch_size": 4096,
+    "psnr": 23.871759932840952,
+    "ssim": 0.6208914518356323,
+    "spectral_band_errors": [
+      0.050713714212179184,
+      1.2443972826004028,
+      2.819061517715454
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.7845365999965,
+    "n_parameters": 264707,
+    "final_loss": 0.003994527738541365
+  },
+  {
+    "image": "kodim18.png",
+    "batch_size": 16384,
+    "psnr": 25.92654848391456,
+    "ssim": 0.7485129833221436,
+    "spectral_band_errors": [
+      0.003259500954300165,
+      0.2709481716156006,
+      1.2115119695663452
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 30.63410179998027,
+    "n_parameters": 264707,
+    "final_loss": 0.0026428690180182457
+  },
+  {
+    "image": "kodim18.png",
+    "batch_size": "full",
+    "psnr": 30.63831822197132,
+    "ssim": 0.8935914039611816,
+    "spectral_band_errors": [
+      0.000603458087425679,
+      0.006037965416908264,
+      0.0869087502360344
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 231.80444849998457,
+    "n_parameters": 264707,
+    "final_loss": 0.0008507234160788357
+  },
+  {
+    "image": "kodim19.png",
+    "batch_size": 256,
+    "psnr": 20.505889196117266,
+    "ssim": 0.500576376914978,
+    "spectral_band_errors": [
+      0.23086196184158325,
+      2.248237133026123,
+      3.640031337738037
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.319533300003968,
+    "n_parameters": 264707,
+    "final_loss": 0.007273733615875244
+  },
+  {
+    "image": "kodim19.png",
+    "batch_size": 1024,
+    "psnr": 22.371893286546587,
+    "ssim": 0.5962510704994202,
+    "spectral_band_errors": [
+      0.16247756779193878,
+      2.172240734100342,
+      3.5297446250915527
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.143682900001295,
+    "n_parameters": 264707,
+    "final_loss": 0.005553318187594414
+  },
+  {
+    "image": "kodim19.png",
+    "batch_size": 4096,
+    "psnr": 24.41971338816653,
+    "ssim": 0.6814540028572083,
+    "spectral_band_errors": [
+      0.017973056063055992,
+      0.8588280081748962,
+      1.9706581830978394
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.73627029999625,
+    "n_parameters": 264707,
+    "final_loss": 0.003833160502836108
+  },
+  {
+    "image": "kodim19.png",
+    "batch_size": 16384,
+    "psnr": 27.907231900632997,
+    "ssim": 0.7892200946807861,
+    "spectral_band_errors": [
+      0.0010681758867576718,
+      0.12350472807884216,
+      0.60318922996521
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 30.656952000019373,
+    "n_parameters": 264707,
+    "final_loss": 0.001627473859116435
+  },
+  {
+    "image": "kodim19.png",
+    "batch_size": "full",
+    "psnr": 33.457866267565585,
+    "ssim": 0.8930068016052246,
+    "spectral_band_errors": [
+      0.0001284470345126465,
+      0.006453513167798519,
+      0.09682279080152512
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 231.83077599998796,
+    "n_parameters": 264707,
+    "final_loss": 0.0004504340759012848
+  },
+  {
+    "image": "kodim20.png",
+    "batch_size": 256,
+    "psnr": 21.56216689738297,
+    "ssim": 0.6695540547370911,
+    "spectral_band_errors": [
+      0.14734628796577454,
+      1.7387522459030151,
+      3.068189859390259
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.265622900013113,
+    "n_parameters": 264707,
+    "final_loss": 0.006851570215076208
+  },
+  {
+    "image": "kodim20.png",
+    "batch_size": 1024,
+    "psnr": 23.845376164033286,
+    "ssim": 0.7496435046195984,
+    "spectral_band_errors": [
+      0.1338348686695099,
+      1.4813941717147827,
+      2.563997268676758
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.231367300002603,
+    "n_parameters": 264707,
+    "final_loss": 0.00551539845764637
+  },
+  {
+    "image": "kodim20.png",
+    "batch_size": 4096,
+    "psnr": 25.90550339603165,
+    "ssim": 0.8022952675819397,
+    "spectral_band_errors": [
+      0.026454243808984756,
+      0.6758264899253845,
+      1.5252580642700195
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.64955370000098,
+    "n_parameters": 264707,
+    "final_loss": 0.002416568109765649
+  },
+  {
+    "image": "kodim20.png",
+    "batch_size": 16384,
+    "psnr": 29.269606596528945,
+    "ssim": 0.8492247462272644,
+    "spectral_band_errors": [
+      0.0020651828963309526,
+      0.15991811454296112,
+      0.6064496636390686
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 30.58843689999776,
+    "n_parameters": 264707,
+    "final_loss": 0.0010955341858789325
+  },
+  {
+    "image": "kodim20.png",
+    "batch_size": "full",
+    "psnr": 32.60912165091905,
+    "ssim": 0.8906237483024597,
+    "spectral_band_errors": [
+      0.00013838906306773424,
+      0.016329409554600716,
+      0.12760815024375916
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 231.95033809999586,
+    "n_parameters": 264707,
+    "final_loss": 0.0005485014407895505
+  },
+  {
+    "image": "kodim21.png",
+    "batch_size": 256,
+    "psnr": 20.81090297153056,
+    "ssim": 0.533571183681488,
+    "spectral_band_errors": [
+      0.4168773293495178,
+      2.989828586578369,
+      4.999324798583984
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 27.03521499998169,
+    "n_parameters": 264707,
+    "final_loss": 0.006546265911310911
+  },
+  {
+    "image": "kodim21.png",
+    "batch_size": 1024,
+    "psnr": 22.515027640809194,
+    "ssim": 0.6359988451004028,
+    "spectral_band_errors": [
+      0.2629632353782654,
+      2.771249294281006,
+      4.452145576477051
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 28.44711599999573,
+    "n_parameters": 264707,
+    "final_loss": 0.006128983106464148
+  },
+  {
+    "image": "kodim21.png",
+    "batch_size": 4096,
+    "psnr": 24.410996748212376,
+    "ssim": 0.7286245226860046,
+    "spectral_band_errors": [
+      0.03187749162316322,
+      1.1671679019927979,
+      2.8740625381469727
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.902447100001154,
+    "n_parameters": 264707,
+    "final_loss": 0.0034731500782072544
+  },
+  {
+    "image": "kodim21.png",
+    "batch_size": 16384,
+    "psnr": 27.630270388545792,
+    "ssim": 0.8342721462249756,
+    "spectral_band_errors": [
+      0.001037708716467023,
+      0.14110009372234344,
+      0.901921272277832
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 30.511179699999047,
+    "n_parameters": 264707,
+    "final_loss": 0.0016580781666561961
+  },
+  {
+    "image": "kodim21.png",
+    "batch_size": "full",
+    "psnr": 34.64302946040813,
+    "ssim": 0.9407601356506348,
+    "spectral_band_errors": [
+      0.00024227915855590254,
+      0.0005577420233748853,
+      0.01870095729827881
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 233.64023980000638,
+    "n_parameters": 264707,
+    "final_loss": 0.0003456611593719572
+  },
+  {
+    "image": "kodim22.png",
+    "batch_size": 256,
+    "psnr": 23.03164318662709,
+    "ssim": 0.5153194069862366,
+    "spectral_band_errors": [
+      0.4661424160003662,
+      3.9481329917907715,
+      5.389951229095459
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.064967000012984,
+    "n_parameters": 264707,
+    "final_loss": 0.008621821179986
+  },
+  {
+    "image": "kodim22.png",
+    "batch_size": 1024,
+    "psnr": 24.474770852954144,
+    "ssim": 0.5872774720191956,
+    "spectral_band_errors": [
+      0.2635548710823059,
+      2.9371190071105957,
+      4.204957008361816
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.090642499999376,
+    "n_parameters": 264707,
+    "final_loss": 0.0030202618800103664
+  },
+  {
+    "image": "kodim22.png",
+    "batch_size": 4096,
+    "psnr": 26.194087036226996,
+    "ssim": 0.6743451952934265,
+    "spectral_band_errors": [
+      0.03653721138834953,
+      1.206218957901001,
+      2.7204601764678955
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.88457369999378,
+    "n_parameters": 264707,
+    "final_loss": 0.0024819481186568737
+  },
+  {
+    "image": "kodim22.png",
+    "batch_size": 16384,
+    "psnr": 28.824594380935963,
+    "ssim": 0.7865322232246399,
+    "spectral_band_errors": [
+      0.001696399413049221,
+      0.19684794545173645,
+      0.9867573380470276
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 31.203548699995736,
+    "n_parameters": 264707,
+    "final_loss": 0.0012879593996331096
+  },
+  {
+    "image": "kodim22.png",
+    "batch_size": "full",
+    "psnr": 34.38573228349057,
+    "ssim": 0.9184575080871582,
+    "spectral_band_errors": [
+      0.0003133663267362863,
+      0.004018160980194807,
+      0.0663737952709198
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 232.19396319999942,
+    "n_parameters": 264707,
+    "final_loss": 0.0003629860875662416
+  },
+  {
+    "image": "kodim23.png",
+    "batch_size": 256,
+    "psnr": 24.115607344972744,
+    "ssim": 0.7502055168151855,
+    "spectral_band_errors": [
+      0.3531333804130554,
+      2.3758726119995117,
+      2.8097565174102783
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.101820699987,
+    "n_parameters": 264707,
+    "final_loss": 0.0027593299746513367
+  },
+  {
+    "image": "kodim23.png",
+    "batch_size": 1024,
+    "psnr": 26.37176157778002,
+    "ssim": 0.8208314776420593,
+    "spectral_band_errors": [
+      0.20324914157390594,
+      1.7161808013916016,
+      2.071422576904297
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.04831350001041,
+    "n_parameters": 264707,
+    "final_loss": 0.002366910222917795
+  },
+  {
+    "image": "kodim23.png",
+    "batch_size": 4096,
+    "psnr": 29.19311646312146,
+    "ssim": 0.8740582466125488,
+    "spectral_band_errors": [
+      0.023073971271514893,
+      0.5775477886199951,
+      1.0769580602645874
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.585656600014772,
+    "n_parameters": 264707,
+    "final_loss": 0.0011443838011473417
+  },
+  {
+    "image": "kodim23.png",
+    "batch_size": 16384,
+    "psnr": 32.53561187659638,
+    "ssim": 0.912102222442627,
+    "spectral_band_errors": [
+      0.0018697325140237808,
+      0.11502133309841156,
+      0.45861101150512695
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 30.42766810001922,
+    "n_parameters": 264707,
+    "final_loss": 0.0005380617221817374
+  },
+  {
+    "image": "kodim23.png",
+    "batch_size": "full",
+    "psnr": 37.655597227104344,
+    "ssim": 0.9421471953392029,
+    "spectral_band_errors": [
+      0.00016975992184598,
+      0.003978496417403221,
+      0.04202063009142876
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 231.72081379999872,
+    "n_parameters": 264707,
+    "final_loss": 0.0001715947437332943
+  },
+  {
+    "image": "kodim24.png",
+    "batch_size": 256,
+    "psnr": 19.81032993625179,
+    "ssim": 0.4279378652572632,
+    "spectral_band_errors": [
+      0.337459534406662,
+      3.8027570247650146,
+      6.061028957366943
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.027589300007094,
+    "n_parameters": 264707,
+    "final_loss": 0.008129428140819073
+  },
+  {
+    "image": "kodim24.png",
+    "batch_size": 1024,
+    "psnr": 21.309694240842575,
+    "ssim": 0.5370445847511292,
+    "spectral_band_errors": [
+      0.2556012272834778,
+      3.4589481353759766,
+      5.001771450042725
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 26.111475499987137,
+    "n_parameters": 264707,
+    "final_loss": 0.00755892600864172
+  },
+  {
+    "image": "kodim24.png",
+    "batch_size": 4096,
+    "psnr": 22.684713622195094,
+    "ssim": 0.6425295472145081,
+    "spectral_band_errors": [
+      0.043797817081213,
+      1.7794803380966187,
+      3.613109588623047
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 25.736210500006564,
+    "n_parameters": 264707,
+    "final_loss": 0.005559959448873997
+  },
+  {
+    "image": "kodim24.png",
+    "batch_size": 16384,
+    "psnr": 24.231180568509657,
+    "ssim": 0.7526484131813049,
+    "spectral_band_errors": [
+      0.0023945763241499662,
+      0.46910610795021057,
+      1.6248736381530762
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 30.57197879999876,
+    "n_parameters": 264707,
+    "final_loss": 0.003520443569868803
+  },
+  {
+    "image": "kodim24.png",
+    "batch_size": "full",
+    "psnr": 30.993584132664417,
+    "ssim": 0.9254432320594788,
+    "spectral_band_errors": [
+      0.00040725941653363407,
+      0.00494055449962616,
+      0.0541938915848732
+    ],
+    "spectral_band_labels": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "train_time_s": 231.43684999999823,
+    "n_parameters": 264707,
+    "final_loss": 0.0008164815371856093
+  }
+]

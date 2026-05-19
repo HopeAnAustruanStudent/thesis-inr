@@ -1,0 +1,962 @@
+[
+  {
+    "image": "kodim01.png",
+    "batch_size": 256,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 19.492944441260015,
+    "ssim": 0.3040485382080078,
+    "train_time_s": 26.330533400003333,
+    "final_loss": 0.009628457017242908
+  },
+  {
+    "image": "kodim01.png",
+    "batch_size": 256,
+    "lr_rule": "linear",
+    "lr": 1.5625e-06,
+    "psnr": 18.59003299598442,
+    "ssim": 0.26253095269203186,
+    "train_time_s": 26.224063200003002,
+    "final_loss": 0.016182105988264084
+  },
+  {
+    "image": "kodim01.png",
+    "batch_size": 256,
+    "lr_rule": "sqrt",
+    "lr": 1.25e-05,
+    "psnr": 20.29577705497688,
+    "ssim": 0.3330531120300293,
+    "train_time_s": 26.17991500001517,
+    "final_loss": 0.010862208902835846
+  },
+  {
+    "image": "kodim01.png",
+    "batch_size": 256,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0008,
+    "psnr": 16.053201103145778,
+    "ssim": 0.21240873634815216,
+    "train_time_s": 26.088628899975447,
+    "final_loss": 0.024009553715586662
+  },
+  {
+    "image": "kodim01.png",
+    "batch_size": 1024,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 20.944019891672212,
+    "ssim": 0.4167846739292145,
+    "train_time_s": 26.13687860002392,
+    "final_loss": 0.00834582932293415
+  },
+  {
+    "image": "kodim01.png",
+    "batch_size": 1024,
+    "lr_rule": "linear",
+    "lr": 6.25e-06,
+    "psnr": 20.347545387982727,
+    "ssim": 0.32813307642936707,
+    "train_time_s": 26.27925089999917,
+    "final_loss": 0.009239362552762032
+  },
+  {
+    "image": "kodim01.png",
+    "batch_size": 1024,
+    "lr_rule": "sqrt",
+    "lr": 2.5e-05,
+    "psnr": 21.55570272519299,
+    "ssim": 0.4327287971973419,
+    "train_time_s": 26.208679500006838,
+    "final_loss": 0.0064117684960365295
+  },
+  {
+    "image": "kodim01.png",
+    "batch_size": 1024,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0004,
+    "psnr": 17.068441667672158,
+    "ssim": 0.17716319859027863,
+    "train_time_s": 26.559206200006884,
+    "final_loss": 0.019705355167388916
+  },
+  {
+    "image": "kodim01.png",
+    "batch_size": 4096,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 22.907245871457114,
+    "ssim": 0.5702140927314758,
+    "train_time_s": 25.706154600018635,
+    "final_loss": 0.004988868720829487
+  },
+  {
+    "image": "kodim01.png",
+    "batch_size": 4096,
+    "lr_rule": "linear",
+    "lr": 2.5e-05,
+    "psnr": 22.901980589610638,
+    "ssim": 0.5307924747467041,
+    "train_time_s": 26.164093499974115,
+    "final_loss": 0.00510100182145834
+  },
+  {
+    "image": "kodim01.png",
+    "batch_size": 4096,
+    "lr_rule": "sqrt",
+    "lr": 5e-05,
+    "psnr": 23.552970024381317,
+    "ssim": 0.6037812232971191,
+    "train_time_s": 25.601201100012986,
+    "final_loss": 0.004522764589637518
+  },
+  {
+    "image": "kodim01.png",
+    "batch_size": 4096,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0002,
+    "psnr": 21.351719061401674,
+    "ssim": 0.4374793767929077,
+    "train_time_s": 25.605163600004744,
+    "final_loss": 0.007710284553468227
+  },
+  {
+    "image": "kodim01.png",
+    "batch_size": 16384,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 25.79487351005543,
+    "ssim": 0.7440428733825684,
+    "train_time_s": 30.474610900011612,
+    "final_loss": 0.002620165701955557
+  },
+  {
+    "image": "kodim01.png",
+    "batch_size": 16384,
+    "lr_rule": "linear",
+    "lr": 0.0001,
+    "psnr": 25.832041377820044,
+    "ssim": 0.7424995303153992,
+    "train_time_s": 30.43581200001063,
+    "final_loss": 0.002636220073327422
+  },
+  {
+    "image": "kodim01.png",
+    "batch_size": 16384,
+    "lr_rule": "sqrt",
+    "lr": 0.0001,
+    "psnr": 25.7759855127468,
+    "ssim": 0.7426760792732239,
+    "train_time_s": 30.557139800017467,
+    "final_loss": 0.002658877521753311
+  },
+  {
+    "image": "kodim01.png",
+    "batch_size": 16384,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0001,
+    "psnr": 25.904153802895387,
+    "ssim": 0.7450433373451233,
+    "train_time_s": 30.55904379999265,
+    "final_loss": 0.0026394014712423086
+  },
+  {
+    "image": "kodim02.png",
+    "batch_size": 256,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 25.445230198870213,
+    "ssim": 0.6289700865745544,
+    "train_time_s": 26.059613399993395,
+    "final_loss": 0.0028756344690918922
+  },
+  {
+    "image": "kodim02.png",
+    "batch_size": 256,
+    "lr_rule": "linear",
+    "lr": 1.5625e-06,
+    "psnr": 19.49469069550766,
+    "ssim": 0.5394352078437805,
+    "train_time_s": 26.128669199999422,
+    "final_loss": 0.012400115840137005
+  },
+  {
+    "image": "kodim02.png",
+    "batch_size": 256,
+    "lr_rule": "sqrt",
+    "lr": 1.25e-05,
+    "psnr": 25.95914544357855,
+    "ssim": 0.6334853172302246,
+    "train_time_s": 26.128541799989762,
+    "final_loss": 0.0015446514589712024
+  },
+  {
+    "image": "kodim02.png",
+    "batch_size": 256,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0008,
+    "psnr": 20.086803963593386,
+    "ssim": 0.34595534205436707,
+    "train_time_s": 26.08454849998816,
+    "final_loss": 0.012502692639827728
+  },
+  {
+    "image": "kodim02.png",
+    "batch_size": 1024,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 27.001857002003455,
+    "ssim": 0.6793540120124817,
+    "train_time_s": 26.093278399988776,
+    "final_loss": 0.0018208788242191076
+  },
+  {
+    "image": "kodim02.png",
+    "batch_size": 1024,
+    "lr_rule": "linear",
+    "lr": 6.25e-06,
+    "psnr": 25.46907125251117,
+    "ssim": 0.6232119202613831,
+    "train_time_s": 26.159978000010597,
+    "final_loss": 0.002794196829199791
+  },
+  {
+    "image": "kodim02.png",
+    "batch_size": 1024,
+    "lr_rule": "sqrt",
+    "lr": 2.5e-05,
+    "psnr": 27.795847410159347,
+    "ssim": 0.672926664352417,
+    "train_time_s": 26.182351099996595,
+    "final_loss": 0.0021310930605977774
+  },
+  {
+    "image": "kodim02.png",
+    "batch_size": 1024,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0004,
+    "psnr": 21.76207694924846,
+    "ssim": 0.4250389039516449,
+    "train_time_s": 25.97045779999462,
+    "final_loss": 0.006714701186865568
+  },
+  {
+    "image": "kodim02.png",
+    "batch_size": 4096,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 28.981651049092953,
+    "ssim": 0.7374122738838196,
+    "train_time_s": 25.59489659999963,
+    "final_loss": 0.0011896846117451787
+  },
+  {
+    "image": "kodim02.png",
+    "batch_size": 4096,
+    "lr_rule": "linear",
+    "lr": 2.5e-05,
+    "psnr": 28.557187713415402,
+    "ssim": 0.6933233737945557,
+    "train_time_s": 25.676222500012955,
+    "final_loss": 0.0013764541363343596
+  },
+  {
+    "image": "kodim02.png",
+    "batch_size": 4096,
+    "lr_rule": "sqrt",
+    "lr": 5e-05,
+    "psnr": 29.183493380811928,
+    "ssim": 0.7247034907341003,
+    "train_time_s": 25.66185749997385,
+    "final_loss": 0.0011056966613978148
+  },
+  {
+    "image": "kodim02.png",
+    "batch_size": 4096,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0002,
+    "psnr": 27.84717797663546,
+    "ssim": 0.700200080871582,
+    "train_time_s": 25.58930709998822,
+    "final_loss": 0.0016330464277416468
+  },
+  {
+    "image": "kodim02.png",
+    "batch_size": 16384,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 30.907576071526602,
+    "ssim": 0.7919378280639648,
+    "train_time_s": 30.53823849998298,
+    "final_loss": 0.0007945755496621132
+  },
+  {
+    "image": "kodim02.png",
+    "batch_size": 16384,
+    "lr_rule": "linear",
+    "lr": 0.0001,
+    "psnr": 31.241486937891203,
+    "ssim": 0.7960442900657654,
+    "train_time_s": 30.407068700005766,
+    "final_loss": 0.0007614274509251118
+  },
+  {
+    "image": "kodim02.png",
+    "batch_size": 16384,
+    "lr_rule": "sqrt",
+    "lr": 0.0001,
+    "psnr": 31.17594182904433,
+    "ssim": 0.7915346622467041,
+    "train_time_s": 30.48855600002571,
+    "final_loss": 0.0007648387691006064
+  },
+  {
+    "image": "kodim02.png",
+    "batch_size": 16384,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0001,
+    "psnr": 31.0393625821441,
+    "ssim": 0.7907145023345947,
+    "train_time_s": 30.466683299979195,
+    "final_loss": 0.000811925798188895
+  },
+  {
+    "image": "kodim03.png",
+    "batch_size": 256,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 25.467546599474133,
+    "ssim": 0.7180084586143494,
+    "train_time_s": 26.262184599996544,
+    "final_loss": 0.002457005437463522
+  },
+  {
+    "image": "kodim03.png",
+    "batch_size": 256,
+    "lr_rule": "linear",
+    "lr": 1.5625e-06,
+    "psnr": 20.06556617006874,
+    "ssim": 0.6627016663551331,
+    "train_time_s": 26.175420400017174,
+    "final_loss": 0.010521906428039074
+  },
+  {
+    "image": "kodim03.png",
+    "batch_size": 256,
+    "lr_rule": "sqrt",
+    "lr": 1.25e-05,
+    "psnr": 26.494676292258667,
+    "ssim": 0.7448487877845764,
+    "train_time_s": 26.450238700024784,
+    "final_loss": 0.0031290517654269934
+  },
+  {
+    "image": "kodim03.png",
+    "batch_size": 256,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0008,
+    "psnr": 15.27917623770118,
+    "ssim": 0.5034469962120056,
+    "train_time_s": 28.28875259999768,
+    "final_loss": 0.03030075691640377
+  },
+  {
+    "image": "kodim03.png",
+    "batch_size": 1024,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 27.540488206529222,
+    "ssim": 0.7791094779968262,
+    "train_time_s": 29.483273399993777,
+    "final_loss": 0.001582261174917221
+  },
+  {
+    "image": "kodim03.png",
+    "batch_size": 1024,
+    "lr_rule": "linear",
+    "lr": 6.25e-06,
+    "psnr": 24.977521502552655,
+    "ssim": 0.7303321957588196,
+    "train_time_s": 29.500407599989558,
+    "final_loss": 0.0031532139983028173
+  },
+  {
+    "image": "kodim03.png",
+    "batch_size": 1024,
+    "lr_rule": "sqrt",
+    "lr": 2.5e-05,
+    "psnr": 28.512836355383616,
+    "ssim": 0.7863813042640686,
+    "train_time_s": 29.375681400008034,
+    "final_loss": 0.001346514793112874
+  },
+  {
+    "image": "kodim03.png",
+    "batch_size": 1024,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0004,
+    "psnr": 20.56720529921444,
+    "ssim": 0.33427396416664124,
+    "train_time_s": 29.399516200006474,
+    "final_loss": 0.00909742433577776
+  },
+  {
+    "image": "kodim03.png",
+    "batch_size": 4096,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 29.767099552095864,
+    "ssim": 0.8273448944091797,
+    "train_time_s": 28.264468900015345,
+    "final_loss": 0.0009464045870117843
+  },
+  {
+    "image": "kodim03.png",
+    "batch_size": 4096,
+    "lr_rule": "linear",
+    "lr": 2.5e-05,
+    "psnr": 29.376178412659925,
+    "ssim": 0.805260181427002,
+    "train_time_s": 28.221890999993775,
+    "final_loss": 0.001285234815441072
+  },
+  {
+    "image": "kodim03.png",
+    "batch_size": 4096,
+    "lr_rule": "sqrt",
+    "lr": 5e-05,
+    "psnr": 29.864277401362173,
+    "ssim": 0.8239793181419373,
+    "train_time_s": 28.12468120001722,
+    "final_loss": 0.0009159157052636147
+  },
+  {
+    "image": "kodim03.png",
+    "batch_size": 4096,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0002,
+    "psnr": 28.482290316036995,
+    "ssim": 0.7964520454406738,
+    "train_time_s": 28.251148499984993,
+    "final_loss": 0.0014945201110094786
+  },
+  {
+    "image": "kodim03.png",
+    "batch_size": 16384,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 32.33168742647689,
+    "ssim": 0.8770028948783875,
+    "train_time_s": 32.327462699991884,
+    "final_loss": 0.0005972220096737146
+  },
+  {
+    "image": "kodim03.png",
+    "batch_size": 16384,
+    "lr_rule": "linear",
+    "lr": 0.0001,
+    "psnr": 32.615328449183856,
+    "ssim": 0.8831527233123779,
+    "train_time_s": 32.32885060002445,
+    "final_loss": 0.0005404693074524403
+  },
+  {
+    "image": "kodim03.png",
+    "batch_size": 16384,
+    "lr_rule": "sqrt",
+    "lr": 0.0001,
+    "psnr": 32.56281461817974,
+    "ssim": 0.8804848790168762,
+    "train_time_s": 32.16768480002065,
+    "final_loss": 0.000542802328709513
+  },
+  {
+    "image": "kodim03.png",
+    "batch_size": 16384,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0001,
+    "psnr": 32.51320985013893,
+    "ssim": 0.8800176978111267,
+    "train_time_s": 32.26562729998841,
+    "final_loss": 0.0005396995693445206
+  },
+  {
+    "image": "kodim04.png",
+    "batch_size": 256,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 24.140843138254834,
+    "ssim": 0.6137234568595886,
+    "train_time_s": 29.351959499996156,
+    "final_loss": 0.004513506777584553
+  },
+  {
+    "image": "kodim04.png",
+    "batch_size": 256,
+    "lr_rule": "linear",
+    "lr": 1.5625e-06,
+    "psnr": 20.672141336021724,
+    "ssim": 0.5632345080375671,
+    "train_time_s": 29.608674199989764,
+    "final_loss": 0.007295891642570496
+  },
+  {
+    "image": "kodim04.png",
+    "batch_size": 256,
+    "lr_rule": "sqrt",
+    "lr": 1.25e-05,
+    "psnr": 25.709674540075042,
+    "ssim": 0.651791512966156,
+    "train_time_s": 29.433755000005476,
+    "final_loss": 0.0020725331269204617
+  },
+  {
+    "image": "kodim04.png",
+    "batch_size": 256,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0008,
+    "psnr": 15.747875193313973,
+    "ssim": 0.42821645736694336,
+    "train_time_s": 29.345481800002744,
+    "final_loss": 0.021902723237872124
+  },
+  {
+    "image": "kodim04.png",
+    "batch_size": 1024,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 26.321713266524608,
+    "ssim": 0.6904149055480957,
+    "train_time_s": 29.3420688000042,
+    "final_loss": 0.002232576720416546
+  },
+  {
+    "image": "kodim04.png",
+    "batch_size": 1024,
+    "lr_rule": "linear",
+    "lr": 6.25e-06,
+    "psnr": 25.492058819432827,
+    "ssim": 0.642437756061554,
+    "train_time_s": 29.55384100001538,
+    "final_loss": 0.002434623660519719
+  },
+  {
+    "image": "kodim04.png",
+    "batch_size": 1024,
+    "lr_rule": "sqrt",
+    "lr": 2.5e-05,
+    "psnr": 27.15706718455881,
+    "ssim": 0.6968974471092224,
+    "train_time_s": 29.481808599986834,
+    "final_loss": 0.0018313087057322264
+  },
+  {
+    "image": "kodim04.png",
+    "batch_size": 1024,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0004,
+    "psnr": 19.61661465560416,
+    "ssim": 0.32879438996315,
+    "train_time_s": 29.237877799983835,
+    "final_loss": 0.011112196370959282
+  },
+  {
+    "image": "kodim04.png",
+    "batch_size": 4096,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 28.195831885034202,
+    "ssim": 0.7550379633903503,
+    "train_time_s": 28.18575260002399,
+    "final_loss": 0.001187348854728043
+  },
+  {
+    "image": "kodim04.png",
+    "batch_size": 4096,
+    "lr_rule": "linear",
+    "lr": 2.5e-05,
+    "psnr": 28.253465114958736,
+    "ssim": 0.7229072451591492,
+    "train_time_s": 28.081856600008905,
+    "final_loss": 0.001483422121964395
+  },
+  {
+    "image": "kodim04.png",
+    "batch_size": 4096,
+    "lr_rule": "sqrt",
+    "lr": 5e-05,
+    "psnr": 28.144753544421736,
+    "ssim": 0.7445728778839111,
+    "train_time_s": 28.12773360000574,
+    "final_loss": 0.001514535746537149
+  },
+  {
+    "image": "kodim04.png",
+    "batch_size": 4096,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0002,
+    "psnr": 27.490210554311144,
+    "ssim": 0.7125895023345947,
+    "train_time_s": 28.071746900008293,
+    "final_loss": 0.0017484113341197371
+  },
+  {
+    "image": "kodim04.png",
+    "batch_size": 16384,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 30.842455122244377,
+    "ssim": 0.8219544291496277,
+    "train_time_s": 32.62203860000591,
+    "final_loss": 0.000833710830193013
+  },
+  {
+    "image": "kodim04.png",
+    "batch_size": 16384,
+    "lr_rule": "linear",
+    "lr": 0.0001,
+    "psnr": 30.86665068579704,
+    "ssim": 0.8215802311897278,
+    "train_time_s": 32.43333169998368,
+    "final_loss": 0.0008070689509622753
+  },
+  {
+    "image": "kodim04.png",
+    "batch_size": 16384,
+    "lr_rule": "sqrt",
+    "lr": 0.0001,
+    "psnr": 30.691383701358518,
+    "ssim": 0.8212060928344727,
+    "train_time_s": 32.38930559999426,
+    "final_loss": 0.0008526155725121498
+  },
+  {
+    "image": "kodim04.png",
+    "batch_size": 16384,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0001,
+    "psnr": 30.78947785223951,
+    "ssim": 0.8223420977592468,
+    "train_time_s": 32.354879199992865,
+    "final_loss": 0.000854073092341423
+  },
+  {
+    "image": "kodim05.png",
+    "batch_size": 256,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 18.127772604507932,
+    "ssim": 0.3324234187602997,
+    "train_time_s": 29.361838900018483,
+    "final_loss": 0.013773070648312569
+  },
+  {
+    "image": "kodim05.png",
+    "batch_size": 256,
+    "lr_rule": "linear",
+    "lr": 1.5625e-06,
+    "psnr": 16.25778269984736,
+    "ssim": 0.23237966001033783,
+    "train_time_s": 29.443558200000552,
+    "final_loss": 0.02517508529126644
+  },
+  {
+    "image": "kodim05.png",
+    "batch_size": 256,
+    "lr_rule": "sqrt",
+    "lr": 1.25e-05,
+    "psnr": 18.841267134200088,
+    "ssim": 0.34526875615119934,
+    "train_time_s": 29.219393899984425,
+    "final_loss": 0.01297332625836134
+  },
+  {
+    "image": "kodim05.png",
+    "batch_size": 256,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0008,
+    "psnr": 14.370696961062666,
+    "ssim": 0.178946390748024,
+    "train_time_s": 29.33929309999803,
+    "final_loss": 0.03380980342626572
+  },
+  {
+    "image": "kodim05.png",
+    "batch_size": 1024,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 20.01469406634042,
+    "ssim": 0.4786503314971924,
+    "train_time_s": 29.26010220000171,
+    "final_loss": 0.009843237698078156
+  },
+  {
+    "image": "kodim05.png",
+    "batch_size": 1024,
+    "lr_rule": "linear",
+    "lr": 6.25e-06,
+    "psnr": 18.63549914109233,
+    "ssim": 0.3300531804561615,
+    "train_time_s": 29.226600199996028,
+    "final_loss": 0.012131801806390285
+  },
+  {
+    "image": "kodim05.png",
+    "batch_size": 1024,
+    "lr_rule": "sqrt",
+    "lr": 2.5e-05,
+    "psnr": 20.59607294969728,
+    "ssim": 0.4791041910648346,
+    "train_time_s": 29.193392399989534,
+    "final_loss": 0.009105315431952477
+  },
+  {
+    "image": "kodim05.png",
+    "batch_size": 1024,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0004,
+    "psnr": 14.886026903839372,
+    "ssim": 0.15260422229766846,
+    "train_time_s": 29.27181920001749,
+    "final_loss": 0.03491058945655823
+  },
+  {
+    "image": "kodim05.png",
+    "batch_size": 4096,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 22.15336263996207,
+    "ssim": 0.6357551217079163,
+    "train_time_s": 28.19250090001151,
+    "final_loss": 0.006522952578961849
+  },
+  {
+    "image": "kodim05.png",
+    "batch_size": 4096,
+    "lr_rule": "linear",
+    "lr": 2.5e-05,
+    "psnr": 21.900938351107804,
+    "ssim": 0.56871098279953,
+    "train_time_s": 25.872913100000005,
+    "final_loss": 0.006582329049706459
+  },
+  {
+    "image": "kodim05.png",
+    "batch_size": 4096,
+    "lr_rule": "sqrt",
+    "lr": 5e-05,
+    "psnr": 22.75696487943314,
+    "ssim": 0.6498197913169861,
+    "train_time_s": 25.673843500000658,
+    "final_loss": 0.005395559128373861
+  },
+  {
+    "image": "kodim05.png",
+    "batch_size": 4096,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0002,
+    "psnr": 20.908636795283325,
+    "ssim": 0.5322214961051941,
+    "train_time_s": 25.622388899995713,
+    "final_loss": 0.008627213537693024
+  },
+  {
+    "image": "kodim05.png",
+    "batch_size": 16384,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 25.4003166223797,
+    "ssim": 0.7940524220466614,
+    "train_time_s": 30.516715600009775,
+    "final_loss": 0.002843505470082164
+  },
+  {
+    "image": "kodim05.png",
+    "batch_size": 16384,
+    "lr_rule": "linear",
+    "lr": 0.0001,
+    "psnr": 25.429937116370397,
+    "ssim": 0.7956016659736633,
+    "train_time_s": 30.39829430001555,
+    "final_loss": 0.0027973162941634655
+  },
+  {
+    "image": "kodim05.png",
+    "batch_size": 16384,
+    "lr_rule": "sqrt",
+    "lr": 0.0001,
+    "psnr": 25.34266857300168,
+    "ssim": 0.7904672622680664,
+    "train_time_s": 30.36416399999871,
+    "final_loss": 0.00289811915718019
+  },
+  {
+    "image": "kodim05.png",
+    "batch_size": 16384,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0001,
+    "psnr": 25.33464640357871,
+    "ssim": 0.7927419543266296,
+    "train_time_s": 30.47020879999036,
+    "final_loss": 0.00282403826713562
+  },
+  {
+    "image": "kodim06.png",
+    "batch_size": 256,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 20.872380683430013,
+    "ssim": 0.44414910674095154,
+    "train_time_s": 26.040460400021402,
+    "final_loss": 0.008909964933991432
+  },
+  {
+    "image": "kodim06.png",
+    "batch_size": 256,
+    "lr_rule": "linear",
+    "lr": 1.5625e-06,
+    "psnr": 18.65358881425931,
+    "ssim": 0.4260169565677643,
+    "train_time_s": 26.165791799983708,
+    "final_loss": 0.013631746172904968
+  },
+  {
+    "image": "kodim06.png",
+    "batch_size": 256,
+    "lr_rule": "sqrt",
+    "lr": 1.25e-05,
+    "psnr": 21.854733123118567,
+    "ssim": 0.46215760707855225,
+    "train_time_s": 26.190158300014446,
+    "final_loss": 0.006584977265447378
+  },
+  {
+    "image": "kodim06.png",
+    "batch_size": 256,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0008,
+    "psnr": 12.75703228590222,
+    "ssim": 0.32211950421333313,
+    "train_time_s": 26.208578200021293,
+    "final_loss": 0.050739534199237823
+  },
+  {
+    "image": "kodim06.png",
+    "batch_size": 1024,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 22.494738507796477,
+    "ssim": 0.5220188498497009,
+    "train_time_s": 26.12667009999859,
+    "final_loss": 0.004956332501024008
+  },
+  {
+    "image": "kodim06.png",
+    "batch_size": 1024,
+    "lr_rule": "linear",
+    "lr": 6.25e-06,
+    "psnr": 21.614252107432947,
+    "ssim": 0.46037009358406067,
+    "train_time_s": 26.02435819999664,
+    "final_loss": 0.007362426724284887
+  },
+  {
+    "image": "kodim06.png",
+    "batch_size": 1024,
+    "lr_rule": "sqrt",
+    "lr": 2.5e-05,
+    "psnr": 22.81503716397545,
+    "ssim": 0.5151453614234924,
+    "train_time_s": 26.069024299999,
+    "final_loss": 0.005677744280546904
+  },
+  {
+    "image": "kodim06.png",
+    "batch_size": 1024,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0004,
+    "psnr": 18.62025504740474,
+    "ssim": 0.26174142956733704,
+    "train_time_s": 26.060993599996436,
+    "final_loss": 0.014543404802680016
+  },
+  {
+    "image": "kodim06.png",
+    "batch_size": 4096,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 24.389401695772726,
+    "ssim": 0.6388938426971436,
+    "train_time_s": 25.671842199983075,
+    "final_loss": 0.00351194990798831
+  },
+  {
+    "image": "kodim06.png",
+    "batch_size": 4096,
+    "lr_rule": "linear",
+    "lr": 2.5e-05,
+    "psnr": 23.76069882868009,
+    "ssim": 0.5670956969261169,
+    "train_time_s": 25.66467900000862,
+    "final_loss": 0.004255208652466536
+  },
+  {
+    "image": "kodim06.png",
+    "batch_size": 4096,
+    "lr_rule": "sqrt",
+    "lr": 5e-05,
+    "psnr": 24.441103496823043,
+    "ssim": 0.6294135451316833,
+    "train_time_s": 25.621635199990124,
+    "final_loss": 0.0035570829641073942
+  },
+  {
+    "image": "kodim06.png",
+    "batch_size": 4096,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0002,
+    "psnr": 22.844889579309672,
+    "ssim": 0.52945476770401,
+    "train_time_s": 25.686254500003997,
+    "final_loss": 0.005128767341375351
+  },
+  {
+    "image": "kodim06.png",
+    "batch_size": 16384,
+    "lr_rule": "fixed",
+    "lr": 0.0001,
+    "psnr": 26.896248974580942,
+    "ssim": 0.7729642987251282,
+    "train_time_s": 30.49608330000774,
+    "final_loss": 0.0019916766323149204
+  },
+  {
+    "image": "kodim06.png",
+    "batch_size": 16384,
+    "lr_rule": "linear",
+    "lr": 0.0001,
+    "psnr": 27.068549437007064,
+    "ssim": 0.780659019947052,
+    "train_time_s": 30.475411799998255,
+    "final_loss": 0.0019306180765852332
+  },
+  {
+    "image": "kodim06.png",
+    "batch_size": 16384,
+    "lr_rule": "sqrt",
+    "lr": 0.0001,
+    "psnr": 27.065854091389593,
+    "ssim": 0.7783954739570618,
+    "train_time_s": 30.53634520000196,
+    "final_loss": 0.0019519252236932516
+  },
+  {
+    "image": "kodim06.png",
+    "batch_size": 16384,
+    "lr_rule": "inverse_sqrt",
+    "lr": 0.0001,
+    "psnr": 26.97821727156102,
+    "ssim": 0.7769859433174133,
+    "train_time_s": 30.499717300001066,
+    "final_loss": 0.0020264536142349243
+  }
+]

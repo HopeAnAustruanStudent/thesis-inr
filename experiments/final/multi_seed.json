@@ -1,0 +1,722 @@
+[
+  {
+    "seed": 0,
+    "image": "kodim01.png",
+    "batch_size": 256,
+    "psnr": 19.561247123991876,
+    "ssim": 0.30705901980400085,
+    "train_time_s": 26.292175000009593
+  },
+  {
+    "seed": 0,
+    "image": "kodim01.png",
+    "batch_size": 1024,
+    "psnr": 20.985382114738815,
+    "ssim": 0.4209432899951935,
+    "train_time_s": 25.569089299999177
+  },
+  {
+    "seed": 0,
+    "image": "kodim01.png",
+    "batch_size": 4096,
+    "psnr": 23.10759205730628,
+    "ssim": 0.5833138823509216,
+    "train_time_s": 25.638719299982768
+  },
+  {
+    "seed": 0,
+    "image": "kodim01.png",
+    "batch_size": 16384,
+    "psnr": 25.802734819320783,
+    "ssim": 0.7447760701179504,
+    "train_time_s": 30.327743700006977
+  },
+  {
+    "seed": 0,
+    "image": "kodim01.png",
+    "batch_size": "full",
+    "psnr": 32.826799170599806,
+    "ssim": 0.9348832964897156,
+    "train_time_s": 231.45744590001414
+  },
+  {
+    "seed": 0,
+    "image": "kodim02.png",
+    "batch_size": 256,
+    "psnr": 25.49460038713864,
+    "ssim": 0.6301332116127014,
+    "train_time_s": 26.09691650001332
+  },
+  {
+    "seed": 0,
+    "image": "kodim02.png",
+    "batch_size": 1024,
+    "psnr": 27.38422360803358,
+    "ssim": 0.6859142184257507,
+    "train_time_s": 26.132180300017353
+  },
+  {
+    "seed": 0,
+    "image": "kodim02.png",
+    "batch_size": 4096,
+    "psnr": 29.330494828369766,
+    "ssim": 0.7416030764579773,
+    "train_time_s": 25.732141899992712
+  },
+  {
+    "seed": 0,
+    "image": "kodim02.png",
+    "batch_size": 16384,
+    "psnr": 30.914902999825273,
+    "ssim": 0.7928059697151184,
+    "train_time_s": 30.54608860000735
+  },
+  {
+    "seed": 0,
+    "image": "kodim02.png",
+    "batch_size": "full",
+    "psnr": 34.150431635932286,
+    "ssim": 0.873859167098999,
+    "train_time_s": 231.30744210002013
+  },
+  {
+    "seed": 0,
+    "image": "kodim03.png",
+    "batch_size": 256,
+    "psnr": 25.19571792709847,
+    "ssim": 0.7124794125556946,
+    "train_time_s": 26.10541540000122
+  },
+  {
+    "seed": 0,
+    "image": "kodim03.png",
+    "batch_size": 1024,
+    "psnr": 27.869272515513003,
+    "ssim": 0.7814950346946716,
+    "train_time_s": 25.92953490000218
+  },
+  {
+    "seed": 0,
+    "image": "kodim03.png",
+    "batch_size": 4096,
+    "psnr": 29.4502203288924,
+    "ssim": 0.8262974619865417,
+    "train_time_s": 25.52015230001416
+  },
+  {
+    "seed": 0,
+    "image": "kodim03.png",
+    "batch_size": 16384,
+    "psnr": 32.696801125664344,
+    "ssim": 0.8849199414253235,
+    "train_time_s": 30.45163309999043
+  },
+  {
+    "seed": 0,
+    "image": "kodim03.png",
+    "batch_size": "full",
+    "psnr": 37.33937389268502,
+    "ssim": 0.9468662738800049,
+    "train_time_s": 231.3056678000139
+  },
+  {
+    "seed": 0,
+    "image": "kodim04.png",
+    "batch_size": 256,
+    "psnr": 24.188175904006574,
+    "ssim": 0.6131253838539124,
+    "train_time_s": 26.17034870001953
+  },
+  {
+    "seed": 0,
+    "image": "kodim04.png",
+    "batch_size": 1024,
+    "psnr": 26.08415766369943,
+    "ssim": 0.6886353492736816,
+    "train_time_s": 26.03722669999115
+  },
+  {
+    "seed": 0,
+    "image": "kodim04.png",
+    "batch_size": 4096,
+    "psnr": 28.40056352797322,
+    "ssim": 0.7556095123291016,
+    "train_time_s": 25.566157899971586
+  },
+  {
+    "seed": 0,
+    "image": "kodim04.png",
+    "batch_size": 16384,
+    "psnr": 30.809581900938397,
+    "ssim": 0.8256421089172363,
+    "train_time_s": 30.423284899967257
+  },
+  {
+    "seed": 0,
+    "image": "kodim04.png",
+    "batch_size": "full",
+    "psnr": 35.64317429933489,
+    "ssim": 0.9167924523353577,
+    "train_time_s": 231.50851559999865
+  },
+  {
+    "seed": 0,
+    "image": "kodim05.png",
+    "batch_size": 256,
+    "psnr": 18.26556998977853,
+    "ssim": 0.34118518233299255,
+    "train_time_s": 26.1831577999983
+  },
+  {
+    "seed": 0,
+    "image": "kodim05.png",
+    "batch_size": 1024,
+    "psnr": 20.136341570737393,
+    "ssim": 0.4882543981075287,
+    "train_time_s": 26.097077000013087
+  },
+  {
+    "seed": 0,
+    "image": "kodim05.png",
+    "batch_size": 4096,
+    "psnr": 22.212221637624587,
+    "ssim": 0.6453226208686829,
+    "train_time_s": 25.54894799995236
+  },
+  {
+    "seed": 0,
+    "image": "kodim05.png",
+    "batch_size": 16384,
+    "psnr": 25.348363382974902,
+    "ssim": 0.7957143783569336,
+    "train_time_s": 30.460523399990052
+  },
+  {
+    "seed": 0,
+    "image": "kodim05.png",
+    "batch_size": "full",
+    "psnr": 31.094961594837592,
+    "ssim": 0.9243653416633606,
+    "train_time_s": 231.3698158999905
+  },
+  {
+    "seed": 0,
+    "image": "kodim06.png",
+    "batch_size": 256,
+    "psnr": 20.834999099525096,
+    "ssim": 0.4413556754589081,
+    "train_time_s": 26.098167899996042
+  },
+  {
+    "seed": 0,
+    "image": "kodim06.png",
+    "batch_size": 1024,
+    "psnr": 22.500755744006902,
+    "ssim": 0.5250430107116699,
+    "train_time_s": 25.97828749998007
+  },
+  {
+    "seed": 0,
+    "image": "kodim06.png",
+    "batch_size": 4096,
+    "psnr": 24.27499513519805,
+    "ssim": 0.6349163055419922,
+    "train_time_s": 25.489542600000277
+  },
+  {
+    "seed": 0,
+    "image": "kodim06.png",
+    "batch_size": 16384,
+    "psnr": 27.228573113941135,
+    "ssim": 0.7857657074928284,
+    "train_time_s": 30.461040999973193
+  },
+  {
+    "seed": 0,
+    "image": "kodim06.png",
+    "batch_size": "full",
+    "psnr": 33.86578874205799,
+    "ssim": 0.9330148696899414,
+    "train_time_s": 231.37071009998908
+  },
+  {
+    "seed": 1,
+    "image": "kodim01.png",
+    "batch_size": 256,
+    "psnr": 19.527072142093242,
+    "ssim": 0.30495667457580566,
+    "train_time_s": 25.955812500033062
+  },
+  {
+    "seed": 1,
+    "image": "kodim01.png",
+    "batch_size": 1024,
+    "psnr": 20.894643096246654,
+    "ssim": 0.4110693037509918,
+    "train_time_s": 25.98978609999176
+  },
+  {
+    "seed": 1,
+    "image": "kodim01.png",
+    "batch_size": 4096,
+    "psnr": 23.05715360139205,
+    "ssim": 0.5760281682014465,
+    "train_time_s": 25.52950880001299
+  },
+  {
+    "seed": 1,
+    "image": "kodim01.png",
+    "batch_size": 16384,
+    "psnr": 25.788892660184022,
+    "ssim": 0.7413862347602844,
+    "train_time_s": 30.421235899964813
+  },
+  {
+    "seed": 1,
+    "image": "kodim01.png",
+    "batch_size": "full",
+    "psnr": 33.05576797643501,
+    "ssim": 0.937971830368042,
+    "train_time_s": 231.39862270001322
+  },
+  {
+    "seed": 1,
+    "image": "kodim02.png",
+    "batch_size": 256,
+    "psnr": 24.992695847217746,
+    "ssim": 0.6202142238616943,
+    "train_time_s": 25.968349200033117
+  },
+  {
+    "seed": 1,
+    "image": "kodim02.png",
+    "batch_size": 1024,
+    "psnr": 27.191723274390686,
+    "ssim": 0.6841745376586914,
+    "train_time_s": 25.976843799988274
+  },
+  {
+    "seed": 1,
+    "image": "kodim02.png",
+    "batch_size": 4096,
+    "psnr": 29.282072490224422,
+    "ssim": 0.7407205700874329,
+    "train_time_s": 25.498882199986838
+  },
+  {
+    "seed": 1,
+    "image": "kodim02.png",
+    "batch_size": 16384,
+    "psnr": 31.195776479424286,
+    "ssim": 0.7961103916168213,
+    "train_time_s": 30.35756680002669
+  },
+  {
+    "seed": 1,
+    "image": "kodim02.png",
+    "batch_size": "full",
+    "psnr": 34.204491660349134,
+    "ssim": 0.8730640411376953,
+    "train_time_s": 231.39448760001687
+  },
+  {
+    "seed": 1,
+    "image": "kodim03.png",
+    "batch_size": 256,
+    "psnr": 25.52071991121086,
+    "ssim": 0.7180020809173584,
+    "train_time_s": 26.0561268000165
+  },
+  {
+    "seed": 1,
+    "image": "kodim03.png",
+    "batch_size": 1024,
+    "psnr": 27.69511320960224,
+    "ssim": 0.7776210904121399,
+    "train_time_s": 25.948216899996623
+  },
+  {
+    "seed": 1,
+    "image": "kodim03.png",
+    "batch_size": 4096,
+    "psnr": 29.39539401206442,
+    "ssim": 0.8226229548454285,
+    "train_time_s": 25.56025249999948
+  },
+  {
+    "seed": 1,
+    "image": "kodim03.png",
+    "batch_size": 16384,
+    "psnr": 32.6906203808917,
+    "ssim": 0.8808162808418274,
+    "train_time_s": 30.522970200050622
+  },
+  {
+    "seed": 1,
+    "image": "kodim03.png",
+    "batch_size": "full",
+    "psnr": 36.842605107807984,
+    "ssim": 0.9407879710197449,
+    "train_time_s": 231.3885790000204
+  },
+  {
+    "seed": 1,
+    "image": "kodim04.png",
+    "batch_size": 256,
+    "psnr": 23.92326210389999,
+    "ssim": 0.6092174053192139,
+    "train_time_s": 26.220255199994426
+  },
+  {
+    "seed": 1,
+    "image": "kodim04.png",
+    "batch_size": 1024,
+    "psnr": 26.070928749057288,
+    "ssim": 0.6830043792724609,
+    "train_time_s": 26.063075899961405
+  },
+  {
+    "seed": 1,
+    "image": "kodim04.png",
+    "batch_size": 4096,
+    "psnr": 28.314947204012107,
+    "ssim": 0.7534618377685547,
+    "train_time_s": 25.527182799996808
+  },
+  {
+    "seed": 1,
+    "image": "kodim04.png",
+    "batch_size": 16384,
+    "psnr": 31.02602419600354,
+    "ssim": 0.8239548802375793,
+    "train_time_s": 30.519154399982654
+  },
+  {
+    "seed": 1,
+    "image": "kodim04.png",
+    "batch_size": "full",
+    "psnr": 35.69280781958246,
+    "ssim": 0.9174218773841858,
+    "train_time_s": 231.40336890000617
+  },
+  {
+    "seed": 1,
+    "image": "kodim05.png",
+    "batch_size": 256,
+    "psnr": 18.279147209080968,
+    "ssim": 0.33696961402893066,
+    "train_time_s": 26.154811599990353
+  },
+  {
+    "seed": 1,
+    "image": "kodim05.png",
+    "batch_size": 1024,
+    "psnr": 20.143317366842602,
+    "ssim": 0.48674729466438293,
+    "train_time_s": 26.01077480003005
+  },
+  {
+    "seed": 1,
+    "image": "kodim05.png",
+    "batch_size": 4096,
+    "psnr": 22.198325185628335,
+    "ssim": 0.6399720311164856,
+    "train_time_s": 25.558697999978904
+  },
+  {
+    "seed": 1,
+    "image": "kodim05.png",
+    "batch_size": 16384,
+    "psnr": 25.24763585498608,
+    "ssim": 0.7905362248420715,
+    "train_time_s": 30.427171699993778
+  },
+  {
+    "seed": 1,
+    "image": "kodim05.png",
+    "batch_size": "full",
+    "psnr": 31.182922395765686,
+    "ssim": 0.9266473650932312,
+    "train_time_s": 231.36494890000904
+  },
+  {
+    "seed": 1,
+    "image": "kodim06.png",
+    "batch_size": 256,
+    "psnr": 20.724173206292043,
+    "ssim": 0.4393772780895233,
+    "train_time_s": 26.160031600040384
+  },
+  {
+    "seed": 1,
+    "image": "kodim06.png",
+    "batch_size": 1024,
+    "psnr": 22.482476125677362,
+    "ssim": 0.5207343697547913,
+    "train_time_s": 26.063087599992286
+  },
+  {
+    "seed": 1,
+    "image": "kodim06.png",
+    "batch_size": 4096,
+    "psnr": 24.116911317515736,
+    "ssim": 0.6287508606910706,
+    "train_time_s": 25.47957820002921
+  },
+  {
+    "seed": 1,
+    "image": "kodim06.png",
+    "batch_size": 16384,
+    "psnr": 26.978918139313524,
+    "ssim": 0.77619868516922,
+    "train_time_s": 30.458912300004158
+  },
+  {
+    "seed": 1,
+    "image": "kodim06.png",
+    "batch_size": "full",
+    "psnr": 28.933522830705773,
+    "ssim": 0.828270435333252,
+    "train_time_s": 231.42653610004345
+  },
+  {
+    "seed": 2,
+    "image": "kodim01.png",
+    "batch_size": 256,
+    "psnr": 19.49969656439506,
+    "ssim": 0.30499565601348877,
+    "train_time_s": 26.13991890003672
+  },
+  {
+    "seed": 2,
+    "image": "kodim01.png",
+    "batch_size": 1024,
+    "psnr": 21.072739613912894,
+    "ssim": 0.42354559898376465,
+    "train_time_s": 26.038307500013616
+  },
+  {
+    "seed": 2,
+    "image": "kodim01.png",
+    "batch_size": 4096,
+    "psnr": 22.964742249938585,
+    "ssim": 0.5776562094688416,
+    "train_time_s": 25.50214589998359
+  },
+  {
+    "seed": 2,
+    "image": "kodim01.png",
+    "batch_size": 16384,
+    "psnr": 25.81190041336256,
+    "ssim": 0.7422435879707336,
+    "train_time_s": 30.346741699962877
+  },
+  {
+    "seed": 2,
+    "image": "kodim01.png",
+    "batch_size": "full",
+    "psnr": 32.37212330037897,
+    "ssim": 0.9303358197212219,
+    "train_time_s": 231.4183875999879
+  },
+  {
+    "seed": 2,
+    "image": "kodim02.png",
+    "batch_size": 256,
+    "psnr": 25.17331074865252,
+    "ssim": 0.6175505518913269,
+    "train_time_s": 26.032702399999835
+  },
+  {
+    "seed": 2,
+    "image": "kodim02.png",
+    "batch_size": 1024,
+    "psnr": 27.175826238057926,
+    "ssim": 0.6827796101570129,
+    "train_time_s": 25.947385599953122
+  },
+  {
+    "seed": 2,
+    "image": "kodim02.png",
+    "batch_size": 4096,
+    "psnr": 28.96108041705528,
+    "ssim": 0.7374427914619446,
+    "train_time_s": 25.590367200027686
+  },
+  {
+    "seed": 2,
+    "image": "kodim02.png",
+    "batch_size": 16384,
+    "psnr": 31.102340229225995,
+    "ssim": 0.792802631855011,
+    "train_time_s": 30.365364100027364
+  },
+  {
+    "seed": 2,
+    "image": "kodim02.png",
+    "batch_size": "full",
+    "psnr": 33.94034950135716,
+    "ssim": 0.8668463230133057,
+    "train_time_s": 231.32800430001225
+  },
+  {
+    "seed": 2,
+    "image": "kodim03.png",
+    "batch_size": 256,
+    "psnr": 25.18570765573775,
+    "ssim": 0.7117906212806702,
+    "train_time_s": 26.016336700005922
+  },
+  {
+    "seed": 2,
+    "image": "kodim03.png",
+    "batch_size": 1024,
+    "psnr": 27.815359409797914,
+    "ssim": 0.7805390357971191,
+    "train_time_s": 25.95121550001204
+  },
+  {
+    "seed": 2,
+    "image": "kodim03.png",
+    "batch_size": 4096,
+    "psnr": 29.88286072567956,
+    "ssim": 0.8280820846557617,
+    "train_time_s": 25.47696190001443
+  },
+  {
+    "seed": 2,
+    "image": "kodim03.png",
+    "batch_size": 16384,
+    "psnr": 32.47763790143052,
+    "ssim": 0.8795667290687561,
+    "train_time_s": 30.50286419998156
+  },
+  {
+    "seed": 2,
+    "image": "kodim03.png",
+    "batch_size": "full",
+    "psnr": 36.94542694956464,
+    "ssim": 0.9432023167610168,
+    "train_time_s": 231.27107799996156
+  },
+  {
+    "seed": 2,
+    "image": "kodim04.png",
+    "batch_size": 256,
+    "psnr": 24.042934377780316,
+    "ssim": 0.6189165711402893,
+    "train_time_s": 26.03844229999231
+  },
+  {
+    "seed": 2,
+    "image": "kodim04.png",
+    "batch_size": 1024,
+    "psnr": 26.20480959294744,
+    "ssim": 0.6913625597953796,
+    "train_time_s": 25.97124059998896
+  },
+  {
+    "seed": 2,
+    "image": "kodim04.png",
+    "batch_size": 4096,
+    "psnr": 28.508853145996824,
+    "ssim": 0.7581489682197571,
+    "train_time_s": 25.487734799971804
+  },
+  {
+    "seed": 2,
+    "image": "kodim04.png",
+    "batch_size": 16384,
+    "psnr": 30.952559483283434,
+    "ssim": 0.8243072628974915,
+    "train_time_s": 30.409076199983247
+  },
+  {
+    "seed": 2,
+    "image": "kodim04.png",
+    "batch_size": "full",
+    "psnr": 35.8967716631642,
+    "ssim": 0.9211050868034363,
+    "train_time_s": 231.31944300001487
+  },
+  {
+    "seed": 2,
+    "image": "kodim05.png",
+    "batch_size": 256,
+    "psnr": 18.158676085482583,
+    "ssim": 0.3341268002986908,
+    "train_time_s": 26.089809499972034
+  },
+  {
+    "seed": 2,
+    "image": "kodim05.png",
+    "batch_size": 1024,
+    "psnr": 20.0750882742543,
+    "ssim": 0.4847494661808014,
+    "train_time_s": 25.994688500009943
+  },
+  {
+    "seed": 2,
+    "image": "kodim05.png",
+    "batch_size": 4096,
+    "psnr": 22.115801352627706,
+    "ssim": 0.6351423859596252,
+    "train_time_s": 25.649133800005075
+  },
+  {
+    "seed": 2,
+    "image": "kodim05.png",
+    "batch_size": 16384,
+    "psnr": 25.380943165350956,
+    "ssim": 0.7936239242553711,
+    "train_time_s": 30.48386560002109
+  },
+  {
+    "seed": 2,
+    "image": "kodim05.png",
+    "batch_size": "full",
+    "psnr": 31.096477152377826,
+    "ssim": 0.9241766333580017,
+    "train_time_s": 231.4519234999898
+  },
+  {
+    "seed": 2,
+    "image": "kodim06.png",
+    "batch_size": 256,
+    "psnr": 20.781019147568642,
+    "ssim": 0.4411792755126953,
+    "train_time_s": 26.242686299956404
+  },
+  {
+    "seed": 2,
+    "image": "kodim06.png",
+    "batch_size": 1024,
+    "psnr": 22.36028106941513,
+    "ssim": 0.5195455551147461,
+    "train_time_s": 26.1676010999945
+  },
+  {
+    "seed": 2,
+    "image": "kodim06.png",
+    "batch_size": 4096,
+    "psnr": 24.219609593268203,
+    "ssim": 0.6360254883766174,
+    "train_time_s": 25.636001700011548
+  },
+  {
+    "seed": 2,
+    "image": "kodim06.png",
+    "batch_size": 16384,
+    "psnr": 27.049065959003688,
+    "ssim": 0.7804059386253357,
+    "train_time_s": 30.54945210000733
+  },
+  {
+    "seed": 2,
+    "image": "kodim06.png",
+    "batch_size": "full",
+    "psnr": 29.82388038398298,
+    "ssim": 0.8548085689544678,
+    "train_time_s": 231.4218909999472
+  }
+]

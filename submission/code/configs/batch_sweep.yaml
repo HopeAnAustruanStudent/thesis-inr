@@ -1,0 +1,26 @@
+# Batch-size sweep configuration for INR training experiments
+# Each run trains a SIREN on a single image with a different batch size.
+
+model:
+  arch: siren
+  hidden_features: 256
+  hidden_layers: 5
+  omega_0: 30.0
+
+training:
+  n_steps: 2000
+  lr: 1.0e-4
+  device: cuda
+  log_every: 100
+
+sweep:
+  batch_sizes: [256, 1024, 4096, 16384, "full"]
+  # "full" means all pixels are used every step (no mini-batching)
+
+data:
+  image_dir: data/images
+  # Kodak dataset: 24 images, 768×512 or 512×768
+
+output:
+  results_dir: experiments/results
+  weights_dir: experiments/weights

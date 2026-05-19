@@ -1,0 +1,80 @@
+# ============== Python ==============
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.python-version
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ============== ML artefacts (large) ==============
+# Model weights — excluded; train script regenerates them
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+*.joblib
+
+# Folder with per-image trained weights (~135 MB, reproducible from code)
+experiments/results/weights/
+experiments/results/checkpoints/
+experiments/extended_full/weights/
+experiments/test_run/
+experiments/extended_test/
+
+# ============== OS / IDE ==============
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ============== LaTeX build artefacts ==============
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+
+# ============== Node / misc (not needed in a Python project) ==============
+node_modules/
+package-lock.json
+package.json
+.claude/
+
+# ============== Submission archives & binaries ==============
+thesis-upload.zip
+thesis-upload-*.zip
+*.zip
+thesis_defense.pptx
+
+# ============== Personal dev artefacts ==============
+# Walkthroughs, slide drafts, intermediate PDFs — not part of the thesis
+docs/
+report/
+slides/

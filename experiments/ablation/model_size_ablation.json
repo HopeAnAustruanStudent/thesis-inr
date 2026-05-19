@@ -1,0 +1,1202 @@
+[
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim01.png",
+    "batch_size": 256,
+    "psnr": 20.263128680432672,
+    "ssim": 0.3416604995727539,
+    "spectral_high": 9.330487251281738,
+    "train_time_s": 31.084142300009262
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim01.png",
+    "batch_size": 1024,
+    "psnr": 21.02050222121274,
+    "ssim": 0.39154040813446045,
+    "spectral_high": 8.653719902038574,
+    "train_time_s": 30.856577200000174
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim01.png",
+    "batch_size": 4096,
+    "psnr": 21.940853725812307,
+    "ssim": 0.45474138855934143,
+    "spectral_high": 6.499709129333496,
+    "train_time_s": 29.506951099960133
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim01.png",
+    "batch_size": 16384,
+    "psnr": 22.705707337579902,
+    "ssim": 0.5100509524345398,
+    "spectral_high": 4.797337055206299,
+    "train_time_s": 30.100072900007945
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim01.png",
+    "batch_size": "full",
+    "psnr": 23.632130473217103,
+    "ssim": 0.5706388354301453,
+    "spectral_high": 2.800685405731201,
+    "train_time_s": 62.3515994999907
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim02.png",
+    "batch_size": 256,
+    "psnr": 26.250094792326145,
+    "ssim": 0.6398507952690125,
+    "spectral_high": 4.765248775482178,
+    "train_time_s": 29.53807270003017
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim02.png",
+    "batch_size": 1024,
+    "psnr": 27.163724499332265,
+    "ssim": 0.6556103229522705,
+    "spectral_high": 3.4330904483795166,
+    "train_time_s": 29.34866359998705
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim02.png",
+    "batch_size": 4096,
+    "psnr": 27.697417425076196,
+    "ssim": 0.6686608195304871,
+    "spectral_high": 2.2983992099761963,
+    "train_time_s": 31.20084579999093
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim02.png",
+    "batch_size": 16384,
+    "psnr": 28.213765355476845,
+    "ssim": 0.6807928085327148,
+    "spectral_high": 2.1652238368988037,
+    "train_time_s": 31.446322300005704
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim02.png",
+    "batch_size": "full",
+    "psnr": 28.898543736725347,
+    "ssim": 0.7000679969787598,
+    "spectral_high": 1.80430269241333,
+    "train_time_s": 61.63129710004432
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim03.png",
+    "batch_size": 256,
+    "psnr": 26.233365141561347,
+    "ssim": 0.7373889088630676,
+    "spectral_high": 4.099236488342285,
+    "train_time_s": 31.944385200040415
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim03.png",
+    "batch_size": 1024,
+    "psnr": 27.5931264167505,
+    "ssim": 0.7627571225166321,
+    "spectral_high": 2.7575631141662598,
+    "train_time_s": 30.312773399986327
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim03.png",
+    "batch_size": 4096,
+    "psnr": 28.450041425209427,
+    "ssim": 0.7794702053070068,
+    "spectral_high": 1.705211877822876,
+    "train_time_s": 29.10733219998656
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim03.png",
+    "batch_size": 16384,
+    "psnr": 29.169997081500945,
+    "ssim": 0.7933716773986816,
+    "spectral_high": 1.2032047510147095,
+    "train_time_s": 28.91895309998654
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim03.png",
+    "batch_size": "full",
+    "psnr": 29.98780017166682,
+    "ssim": 0.810548722743988,
+    "spectral_high": 0.7601390480995178,
+    "train_time_s": 62.043921300035436
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim04.png",
+    "batch_size": 256,
+    "psnr": 25.33020526066977,
+    "ssim": 0.6465479731559753,
+    "spectral_high": 5.295810699462891,
+    "train_time_s": 32.8273720999714
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim04.png",
+    "batch_size": 1024,
+    "psnr": 26.258757935980356,
+    "ssim": 0.6697129607200623,
+    "spectral_high": 4.382160663604736,
+    "train_time_s": 30.235850400000345
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim04.png",
+    "batch_size": 4096,
+    "psnr": 27.319263007621334,
+    "ssim": 0.6907879710197449,
+    "spectral_high": 3.611560583114624,
+    "train_time_s": 30.099202100012917
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim04.png",
+    "batch_size": 16384,
+    "psnr": 28.00924842250163,
+    "ssim": 0.7085713744163513,
+    "spectral_high": 2.639561176300049,
+    "train_time_s": 31.722814499982633
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim04.png",
+    "batch_size": "full",
+    "psnr": 28.872930134250204,
+    "ssim": 0.7314732670783997,
+    "spectral_high": 1.8687630891799927,
+    "train_time_s": 60.3961853000219
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim05.png",
+    "batch_size": 256,
+    "psnr": 18.842360193130517,
+    "ssim": 0.3633521497249603,
+    "spectral_high": 7.958693981170654,
+    "train_time_s": 29.795046199986245
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim05.png",
+    "batch_size": 1024,
+    "psnr": 19.787143670650963,
+    "ssim": 0.42436596751213074,
+    "spectral_high": 5.752166271209717,
+    "train_time_s": 30.96581339999102
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim05.png",
+    "batch_size": 4096,
+    "psnr": 20.495308782735133,
+    "ssim": 0.47783029079437256,
+    "spectral_high": 3.8638079166412354,
+    "train_time_s": 29.35806810000213
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim05.png",
+    "batch_size": 16384,
+    "psnr": 21.198465685282546,
+    "ssim": 0.5252708792686462,
+    "spectral_high": 2.5582845211029053,
+    "train_time_s": 26.73045779997483
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim05.png",
+    "batch_size": "full",
+    "psnr": 22.103050563640288,
+    "ssim": 0.5834581851959229,
+    "spectral_high": 1.4019328355789185,
+    "train_time_s": 59.992511600023136
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim06.png",
+    "batch_size": 256,
+    "psnr": 21.67366062845769,
+    "ssim": 0.46433404088020325,
+    "spectral_high": 8.356411933898926,
+    "train_time_s": 27.585903499973938
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim06.png",
+    "batch_size": 1024,
+    "psnr": 22.44359941907813,
+    "ssim": 0.4997173845767975,
+    "spectral_high": 7.7241315841674805,
+    "train_time_s": 29.84637779998593
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim06.png",
+    "batch_size": 4096,
+    "psnr": 23.062755733880813,
+    "ssim": 0.5299187898635864,
+    "spectral_high": 6.063190460205078,
+    "train_time_s": 29.043832099996507
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim06.png",
+    "batch_size": 16384,
+    "psnr": 23.72984626733298,
+    "ssim": 0.5678958296775818,
+    "spectral_high": 5.084792613983154,
+    "train_time_s": 26.999306500016246
+  },
+  {
+    "width": 64,
+    "n_params": 17027,
+    "image": "kodim06.png",
+    "batch_size": "full",
+    "psnr": 24.89930479246479,
+    "ssim": 0.639732837677002,
+    "spectral_high": 2.904053211212158,
+    "train_time_s": 58.72639690001961
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim01.png",
+    "batch_size": 256,
+    "psnr": 20.125494257517637,
+    "ssim": 0.3427762985229492,
+    "spectral_high": 8.808858871459961,
+    "train_time_s": 26.53985499998089
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim01.png",
+    "batch_size": 1024,
+    "psnr": 21.383050490871035,
+    "ssim": 0.44024017453193665,
+    "spectral_high": 7.253538608551025,
+    "train_time_s": 26.222883900045417
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim01.png",
+    "batch_size": 4096,
+    "psnr": 22.760444615334187,
+    "ssim": 0.5501551628112793,
+    "spectral_high": 4.434303283691406,
+    "train_time_s": 26.230706100002863
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim01.png",
+    "batch_size": 16384,
+    "psnr": 24.91994462914903,
+    "ssim": 0.6748688817024231,
+    "spectral_high": 1.9775604009628296,
+    "train_time_s": 27.20733730000211
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim01.png",
+    "batch_size": "full",
+    "psnr": 27.359233383628876,
+    "ssim": 0.7898874282836914,
+    "spectral_high": 0.5481366515159607,
+    "train_time_s": 106.701544200012
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim02.png",
+    "batch_size": 256,
+    "psnr": 26.529683942939407,
+    "ssim": 0.652805745601654,
+    "spectral_high": 4.161412239074707,
+    "train_time_s": 26.28959970001597
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim02.png",
+    "batch_size": 1024,
+    "psnr": 27.441620034869942,
+    "ssim": 0.6806769967079163,
+    "spectral_high": 3.6001298427581787,
+    "train_time_s": 26.375471299979836
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim02.png",
+    "batch_size": 4096,
+    "psnr": 28.973737533907325,
+    "ssim": 0.7139871120452881,
+    "spectral_high": 1.9666187763214111,
+    "train_time_s": 25.68041589995846
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim02.png",
+    "batch_size": 16384,
+    "psnr": 29.912458865348004,
+    "ssim": 0.743259847164154,
+    "spectral_high": 1.5988231897354126,
+    "train_time_s": 27.26698169996962
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim02.png",
+    "batch_size": "full",
+    "psnr": 31.307854547673912,
+    "ssim": 0.7825391888618469,
+    "spectral_high": 0.9972913861274719,
+    "train_time_s": 106.67804939998314
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim03.png",
+    "batch_size": 256,
+    "psnr": 26.321629977916714,
+    "ssim": 0.7468768954277039,
+    "spectral_high": 3.412461996078491,
+    "train_time_s": 26.069040500035044
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim03.png",
+    "batch_size": 1024,
+    "psnr": 28.263327446128464,
+    "ssim": 0.784656822681427,
+    "spectral_high": 2.4575579166412354,
+    "train_time_s": 27.853373599995393
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim03.png",
+    "batch_size": 4096,
+    "psnr": 29.555066376435228,
+    "ssim": 0.810667097568512,
+    "spectral_high": 1.308074712753296,
+    "train_time_s": 25.690661900036503
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim03.png",
+    "batch_size": 16384,
+    "psnr": 30.863023945063976,
+    "ssim": 0.8374226093292236,
+    "spectral_high": 0.7484925985336304,
+    "train_time_s": 27.305985299986787
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim03.png",
+    "batch_size": "full",
+    "psnr": 32.944797781179325,
+    "ssim": 0.87821364402771,
+    "spectral_high": 0.34654009342193604,
+    "train_time_s": 107.24286440003198
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim04.png",
+    "batch_size": 256,
+    "psnr": 25.120612725418688,
+    "ssim": 0.6534759998321533,
+    "spectral_high": 4.381990909576416,
+    "train_time_s": 26.464054799987935
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim04.png",
+    "batch_size": 1024,
+    "psnr": 26.561785569587585,
+    "ssim": 0.6928866505622864,
+    "spectral_high": 3.11677622795105,
+    "train_time_s": 26.32268079998903
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim04.png",
+    "batch_size": 4096,
+    "psnr": 28.409183780981103,
+    "ssim": 0.7354512214660645,
+    "spectral_high": 2.1608285903930664,
+    "train_time_s": 25.85231779998867
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim04.png",
+    "batch_size": 16384,
+    "psnr": 29.771964651678957,
+    "ssim": 0.773771345615387,
+    "spectral_high": 1.2926490306854248,
+    "train_time_s": 27.39819020003779
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim04.png",
+    "batch_size": "full",
+    "psnr": 31.601255461491338,
+    "ssim": 0.8238012194633484,
+    "spectral_high": 0.7215181589126587,
+    "train_time_s": 107.20498570002383
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim05.png",
+    "batch_size": 256,
+    "psnr": 19.031581754874733,
+    "ssim": 0.3853704631328583,
+    "spectral_high": 7.094121932983398,
+    "train_time_s": 26.21979410003405
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim05.png",
+    "batch_size": 1024,
+    "psnr": 20.50334834088602,
+    "ssim": 0.4958619773387909,
+    "spectral_high": 4.080507278442383,
+    "train_time_s": 26.13056429999415
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim05.png",
+    "batch_size": 4096,
+    "psnr": 21.981756228573254,
+    "ssim": 0.5975691676139832,
+    "spectral_high": 1.9983208179473877,
+    "train_time_s": 25.54083760001231
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim05.png",
+    "batch_size": 16384,
+    "psnr": 23.59617725033708,
+    "ssim": 0.6881546378135681,
+    "spectral_high": 0.8563306927680969,
+    "train_time_s": 27.166844899998978
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim05.png",
+    "batch_size": "full",
+    "psnr": 26.03886697144374,
+    "ssim": 0.7905936241149902,
+    "spectral_high": 0.30722135305404663,
+    "train_time_s": 106.49495500000194
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim06.png",
+    "batch_size": 256,
+    "psnr": 21.594700674123338,
+    "ssim": 0.47160568833351135,
+    "spectral_high": 7.310511589050293,
+    "train_time_s": 26.03637579997303
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim06.png",
+    "batch_size": 1024,
+    "psnr": 22.708587989350878,
+    "ssim": 0.5253611207008362,
+    "spectral_high": 6.647488117218018,
+    "train_time_s": 26.12836159998551
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim06.png",
+    "batch_size": 4096,
+    "psnr": 24.137696252984497,
+    "ssim": 0.6064406037330627,
+    "spectral_high": 4.459192276000977,
+    "train_time_s": 25.530444200034253
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim06.png",
+    "batch_size": 16384,
+    "psnr": 25.661704823608147,
+    "ssim": 0.6925823092460632,
+    "spectral_high": 2.266049385070801,
+    "train_time_s": 27.14177230000496
+  },
+  {
+    "width": 128,
+    "n_params": 66819,
+    "image": "kodim06.png",
+    "batch_size": "full",
+    "psnr": 28.848901188005506,
+    "ssim": 0.8259186148643494,
+    "spectral_high": 0.39792340993881226,
+    "train_time_s": 106.46755729999859
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim01.png",
+    "batch_size": 256,
+    "psnr": 19.451058184643088,
+    "ssim": 0.301661878824234,
+    "spectral_high": 6.03573751449585,
+    "train_time_s": 26.194333099992946
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim01.png",
+    "batch_size": 1024,
+    "psnr": 20.92736376444181,
+    "ssim": 0.4160677194595337,
+    "spectral_high": 6.214467525482178,
+    "train_time_s": 26.107583099976182
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim01.png",
+    "batch_size": 4096,
+    "psnr": 22.962373797364727,
+    "ssim": 0.574061930179596,
+    "spectral_high": 4.128121852874756,
+    "train_time_s": 25.592192900017835
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim01.png",
+    "batch_size": 16384,
+    "psnr": 25.62777716218957,
+    "ssim": 0.7335520386695862,
+    "spectral_high": 1.3402882814407349,
+    "train_time_s": 30.447152199980337
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim01.png",
+    "batch_size": "full",
+    "psnr": 33.123962344987426,
+    "ssim": 0.9385384917259216,
+    "spectral_high": 0.029417458921670914,
+    "train_time_s": 231.4691782000009
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim02.png",
+    "batch_size": 256,
+    "psnr": 25.26288032060322,
+    "ssim": 0.6252174973487854,
+    "spectral_high": 3.003187656402588,
+    "train_time_s": 26.137634599988814
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim02.png",
+    "batch_size": 1024,
+    "psnr": 27.50582875300325,
+    "ssim": 0.6873968243598938,
+    "spectral_high": 2.6682770252227783,
+    "train_time_s": 25.956907899992075
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim02.png",
+    "batch_size": 4096,
+    "psnr": 29.136803830813477,
+    "ssim": 0.7411460280418396,
+    "spectral_high": 1.9747573137283325,
+    "train_time_s": 25.490323400008492
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim02.png",
+    "batch_size": 16384,
+    "psnr": 30.962553911473407,
+    "ssim": 0.7881665229797363,
+    "spectral_high": 1.094671368598938,
+    "train_time_s": 30.434584000031464
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim02.png",
+    "batch_size": "full",
+    "psnr": 34.02645760249081,
+    "ssim": 0.8677695393562317,
+    "spectral_high": 0.3204830586910248,
+    "train_time_s": 231.3973205999937
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim03.png",
+    "batch_size": 256,
+    "psnr": 25.09100491191518,
+    "ssim": 0.7142403721809387,
+    "spectral_high": 3.0988078117370605,
+    "train_time_s": 26.24307929998031
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim03.png",
+    "batch_size": 1024,
+    "psnr": 27.82755489763993,
+    "ssim": 0.7791044116020203,
+    "spectral_high": 2.066220760345459,
+    "train_time_s": 25.967888100014534
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim03.png",
+    "batch_size": 4096,
+    "psnr": 29.88380964042442,
+    "ssim": 0.8279207348823547,
+    "spectral_high": 1.0097838640213013,
+    "train_time_s": 25.495567800011486
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim03.png",
+    "batch_size": 16384,
+    "psnr": 32.14104395994915,
+    "ssim": 0.8748073577880859,
+    "spectral_high": 0.5447708368301392,
+    "train_time_s": 30.504176100017503
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim03.png",
+    "batch_size": "full",
+    "psnr": 36.5360330381822,
+    "ssim": 0.936527669429779,
+    "spectral_high": 0.10187793523073196,
+    "train_time_s": 231.51978959998814
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim04.png",
+    "batch_size": 256,
+    "psnr": 24.01259369433089,
+    "ssim": 0.6135875582695007,
+    "spectral_high": 3.613389492034912,
+    "train_time_s": 26.159424100012984
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim04.png",
+    "batch_size": 1024,
+    "psnr": 26.316972120152027,
+    "ssim": 0.6921787261962891,
+    "spectral_high": 2.8800342082977295,
+    "train_time_s": 26.00060879997909
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim04.png",
+    "batch_size": 4096,
+    "psnr": 28.36002269943943,
+    "ssim": 0.7570695877075195,
+    "spectral_high": 1.9044476747512817,
+    "train_time_s": 25.597047199960798
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim04.png",
+    "batch_size": 16384,
+    "psnr": 30.827755014043348,
+    "ssim": 0.8247785568237305,
+    "spectral_high": 1.0207003355026245,
+    "train_time_s": 30.39262170001166
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim04.png",
+    "batch_size": "full",
+    "psnr": 35.55820582157483,
+    "ssim": 0.9144973754882812,
+    "spectral_high": 0.20296910405158997,
+    "train_time_s": 231.4536611000076
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim05.png",
+    "batch_size": 256,
+    "psnr": 18.15921339145633,
+    "ssim": 0.33308252692222595,
+    "spectral_high": 5.831363201141357,
+    "train_time_s": 26.177415899990592
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim05.png",
+    "batch_size": 1024,
+    "psnr": 20.11452685950666,
+    "ssim": 0.48369523882865906,
+    "spectral_high": 3.8256852626800537,
+    "train_time_s": 26.113109400030226
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim05.png",
+    "batch_size": 4096,
+    "psnr": 22.10157878262658,
+    "ssim": 0.6341330409049988,
+    "spectral_high": 1.6327041387557983,
+    "train_time_s": 25.621122599986847
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim05.png",
+    "batch_size": 16384,
+    "psnr": 25.369887869797108,
+    "ssim": 0.7917258739471436,
+    "spectral_high": 0.43585261702537537,
+    "train_time_s": 30.702383499999996
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim05.png",
+    "batch_size": "full",
+    "psnr": 31.14263652970977,
+    "ssim": 0.925502598285675,
+    "spectral_high": 0.030450357124209404,
+    "train_time_s": 231.57332180003868
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim06.png",
+    "batch_size": 256,
+    "psnr": 20.82714658670179,
+    "ssim": 0.44037261605262756,
+    "spectral_high": 5.5508036613464355,
+    "train_time_s": 26.010820400028024
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim06.png",
+    "batch_size": 1024,
+    "psnr": 22.38727689914082,
+    "ssim": 0.519024670124054,
+    "spectral_high": 5.675398349761963,
+    "train_time_s": 26.04192200000398
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim06.png",
+    "batch_size": 4096,
+    "psnr": 24.036765184594202,
+    "ssim": 0.6262146830558777,
+    "spectral_high": 3.6361467838287354,
+    "train_time_s": 25.50708259997191
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim06.png",
+    "batch_size": 16384,
+    "psnr": 27.07760353802783,
+    "ssim": 0.7787343859672546,
+    "spectral_high": 1.0934549570083618,
+    "train_time_s": 30.332384199951775
+  },
+  {
+    "width": 256,
+    "n_params": 264707,
+    "image": "kodim06.png",
+    "batch_size": "full",
+    "psnr": 33.929597305584615,
+    "ssim": 0.9338381886482239,
+    "spectral_high": 0.040197115391492844,
+    "train_time_s": 231.48995870002545
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim01.png",
+    "batch_size": 256,
+    "psnr": 17.546360529150363,
+    "ssim": 0.17633342742919922,
+    "spectral_high": 0.28928157687187195,
+    "train_time_s": 25.929481200000737
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim01.png",
+    "batch_size": 1024,
+    "psnr": 19.61413904222536,
+    "ssim": 0.2955082654953003,
+    "spectral_high": 0.8331853151321411,
+    "train_time_s": 25.379491599975154
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim01.png",
+    "batch_size": 4096,
+    "psnr": 21.62624621997044,
+    "ssim": 0.4730954170227051,
+    "spectral_high": 2.2889962196350098,
+    "train_time_s": 28.00119669997366
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim01.png",
+    "batch_size": 16384,
+    "psnr": 25.37886025921287,
+    "ssim": 0.7316005825996399,
+    "spectral_high": 1.2655831575393677,
+    "train_time_s": 48.25507480005035
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim01.png",
+    "batch_size": "full",
+    "psnr": 41.49339134310481,
+    "ssim": 0.9890263080596924,
+    "spectral_high": 0.0004269125056453049,
+    "train_time_s": 624.4208542999695
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim02.png",
+    "batch_size": 256,
+    "psnr": 22.039252548779476,
+    "ssim": 0.4330786168575287,
+    "spectral_high": 0.08047271519899368,
+    "train_time_s": 25.93720000004396
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim02.png",
+    "batch_size": 1024,
+    "psnr": 24.964231664990912,
+    "ssim": 0.5801262855529785,
+    "spectral_high": 0.6656253337860107,
+    "train_time_s": 25.38061580003705
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim02.png",
+    "batch_size": 4096,
+    "psnr": 28.40700609960413,
+    "ssim": 0.7152164578437805,
+    "spectral_high": 1.9857544898986816,
+    "train_time_s": 27.979108400002588
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim02.png",
+    "batch_size": 16384,
+    "psnr": 31.022674992750062,
+    "ssim": 0.8140993714332581,
+    "spectral_high": 0.9296606183052063,
+    "train_time_s": 48.31871740001952
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim02.png",
+    "batch_size": "full",
+    "psnr": 38.00700925674229,
+    "ssim": 0.9436812996864319,
+    "spectral_high": 0.04030127450823784,
+    "train_time_s": 623.4416398999747
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim03.png",
+    "batch_size": 256,
+    "psnr": 22.328449234894926,
+    "ssim": 0.4338132441043854,
+    "spectral_high": 0.06563685834407806,
+    "train_time_s": 25.833894599985797
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim03.png",
+    "batch_size": 1024,
+    "psnr": 26.15843239393771,
+    "ssim": 0.6988289952278137,
+    "spectral_high": 1.4761055707931519,
+    "train_time_s": 25.447770400031004
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim03.png",
+    "batch_size": 4096,
+    "psnr": 28.937310019880908,
+    "ssim": 0.8117432594299316,
+    "spectral_high": 1.0670768022537231,
+    "train_time_s": 28.024172999954317
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim03.png",
+    "batch_size": 16384,
+    "psnr": 32.96141812950074,
+    "ssim": 0.8972053527832031,
+    "spectral_high": 0.39948999881744385,
+    "train_time_s": 48.50800170004368
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim03.png",
+    "batch_size": "full",
+    "psnr": 41.532206294006954,
+    "ssim": 0.9765648245811462,
+    "spectral_high": 0.014031382277607918,
+    "train_time_s": 624.2556657000096
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim04.png",
+    "batch_size": 256,
+    "psnr": 20.90048336596416,
+    "ssim": 0.3350495994091034,
+    "spectral_high": 0.004431493580341339,
+    "train_time_s": 27.79281670000637
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim04.png",
+    "batch_size": 1024,
+    "psnr": 24.5841370765311,
+    "ssim": 0.583732008934021,
+    "spectral_high": 1.2217845916748047,
+    "train_time_s": 27.623253600031603
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim04.png",
+    "batch_size": 4096,
+    "psnr": 27.44718511767068,
+    "ssim": 0.7314755320549011,
+    "spectral_high": 1.6902738809585571,
+    "train_time_s": 29.930787199991755
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim04.png",
+    "batch_size": 16384,
+    "psnr": 30.921914997414348,
+    "ssim": 0.8386109471321106,
+    "spectral_high": 0.9488654732704163,
+    "train_time_s": 50.04092339996714
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim04.png",
+    "batch_size": "full",
+    "psnr": 40.83222911507788,
+    "ssim": 0.9694560170173645,
+    "spectral_high": 0.015450125560164452,
+    "train_time_s": 626.3046389000374
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim05.png",
+    "batch_size": 256,
+    "psnr": 15.190087788276633,
+    "ssim": 0.13818597793579102,
+    "spectral_high": 0.13246183097362518,
+    "train_time_s": 29.38439560000552
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim05.png",
+    "batch_size": 1024,
+    "psnr": 18.325711282327063,
+    "ssim": 0.34061992168426514,
+    "spectral_high": 1.1253591775894165,
+    "train_time_s": 28.668992400052957
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim05.png",
+    "batch_size": 4096,
+    "psnr": 21.053860668852078,
+    "ssim": 0.5620941519737244,
+    "spectral_high": 2.0214896202087402,
+    "train_time_s": 31.232795499963686
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim05.png",
+    "batch_size": 16384,
+    "psnr": 24.79965816660392,
+    "ssim": 0.7940883636474609,
+    "spectral_high": 0.40717142820358276,
+    "train_time_s": 51.64417799998773
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim05.png",
+    "batch_size": "full",
+    "psnr": 37.09391439292165,
+    "ssim": 0.9796182513237,
+    "spectral_high": 0.0021779006347060204,
+    "train_time_s": 626.2942665999872
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim06.png",
+    "batch_size": 256,
+    "psnr": 18.252749478271184,
+    "ssim": 0.23733754456043243,
+    "spectral_high": 0.052280619740486145,
+    "train_time_s": 29.69105550000677
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim06.png",
+    "batch_size": 1024,
+    "psnr": 20.849890012906876,
+    "ssim": 0.4032646715641022,
+    "spectral_high": 0.8719614744186401,
+    "train_time_s": 28.774288500018883
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim06.png",
+    "batch_size": 4096,
+    "psnr": 23.057864053467576,
+    "ssim": 0.5592902302742004,
+    "spectral_high": 2.488297462463379,
+    "train_time_s": 31.277555800043046
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim06.png",
+    "batch_size": 16384,
+    "psnr": 26.558533887635804,
+    "ssim": 0.7697580456733704,
+    "spectral_high": 1.2287602424621582,
+    "train_time_s": 51.82479189999867
+  },
+  {
+    "width": 512,
+    "n_params": 1053699,
+    "image": "kodim06.png",
+    "batch_size": "full",
+    "psnr": 40.64004771606349,
+    "ssim": 0.9817450642585754,
+    "spectral_high": 0.0023567993193864822,
+    "train_time_s": 625.9429700000328
+  }
+]
