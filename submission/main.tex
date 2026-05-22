@@ -43,7 +43,7 @@
     \small \texttt{svetllucenko@gmail.com}\\[0.8em]
     \small \textit{Supervisor:} Gianluca Galletti
 }
-\date{April 24, 2026}
+\date{May 19, 2026}
 
 \begin{document}
 
@@ -62,7 +62,7 @@ thesis quantifies what is actually at stake.
 
 We retrain SIREN and COIN on the 24 Kodak images across five batch sizes
 (256 pixels up to full-batch), three wall-clock budgets, and three
-coarse-to-fine schedules, roughly 1{,}500 training runs in total.  Beyond
+coarse-to-fine schedules, roughly 1{,}800 training runs in total.  Beyond
 PSNR and SSIM, we report a spectral band-wise error obtained from the
 Fourier transform of the reconstruction, which localises where quality is
 lost between low, middle, and high frequencies.
@@ -497,7 +497,7 @@ full network).  The architecture is:
 
 The total parameter count of 264{,}707 breaks down as: first layer
 $2 \times 256 + 256 = 768$; four hidden layers $4 \times (256 \times 256 +
-256) = 266{,}240$; output layer $256 \times 3 + 3 = 771$.  This yields a
+256) = 263{,}168$; output layer $256 \times 3 + 3 = 771$.  This yields a
 compression ratio of $\sim$1.13$\times$ at \texttt{float32} and
 $\sim$2.26$\times$ at \texttt{float16} for a Kodak image.
 
@@ -645,7 +645,7 @@ independent mini-batch samples at fixed model states.
 
 All experiments are run on an NVIDIA GeForce RTX 5060 Ti GPU (16\,GB VRAM)
 with CUDA 12.8 and PyTorch 2.10.  The full experimental campaign comprises
-approximately 1{,}500 training runs with a total GPU time of $\sim$20 hours.
+approximately 1{,}800 training runs with a total GPU time of $\sim$20 hours.
 
 
 % ===================================================================
@@ -658,7 +658,7 @@ For each of the 24 Kodak images and each batch size in $\{256, 1024, 4096,
 16384, \text{full}\}$, we train a SIREN from scratch, yielding $24 \times 5 = 120$
 training runs.  The same sweep is repeated with COIN (120 runs).  Extended
 experiments (iso-time, adaptive, gradient variance, LR scaling, difficulty
-analysis, VRAM profiling, JPEG comparison, multi-seed) add $\sim$1{,}260
+analysis, VRAM profiling, JPEG comparison, multi-seed) add $\sim$1{,}560
 additional runs.
 
 \subsection{SIREN Batch-Size Sweep}
@@ -991,8 +991,8 @@ JPEG          & $q=20$    & ---             & $\sim$64        & 1.33  & $\sim$18
 JPEG          & $q=50$    & ---             & $\sim$120       & 2.50  & $\sim$9.6$\times$  \\
 JPEG          & $q=80$    & ---             & $\sim$240       & 5.00  & $\sim$4.8$\times$  \\
 \midrule
-SIREN (full)  & float16   & 263{,}939       & 517             & 10.77 & 2.23$\times$ \\
-SIREN (full)  & float32   & 263{,}939       & 1{,}034         & 21.55 & 1.11$\times$ \\
+SIREN (full)  & float16   & 264{,}707       & 517             & 10.77 & 2.23$\times$ \\
+SIREN (full)  & float32   & 264{,}707       & 1{,}034         & 21.55 & 1.11$\times$ \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1463,7 +1463,7 @@ JPEG Quality & Avg Size (KB) & PSNR (dB) & SSIM \\
     \centering
     \includegraphics[width=\textwidth]{figures/radial_profiles.png}
     \caption{Radially-averaged log-magnitude spectrum for two representative
-    Kodak images (\emph{kodim01}, smooth scene; \emph{kodim23}, parrot with
+    Kodak images (\emph{kodim01}, building scene; \emph{kodim23}, parrot with
     fine plumage texture).  The black curve is the reference spectrum; coloured
     curves are SIREN reconstructions at different batch sizes.  All curves
     coincide at low radial frequencies; smaller batches fall below the
@@ -1597,7 +1597,7 @@ JPEG Quality & Avg Size (KB) & PSNR (dB) & SSIM \\
 10 & VRAM profiling & 10 & $\sim$5\,min \\
 11 & Model-size ablation & 120 & $\sim$2\,h \\
 \midrule
-   & \textbf{Total} & $\sim$\textbf{1{,}600} & $\sim$\textbf{20\,h} \\
+   & \textbf{Total} & $\sim$\textbf{1{,}800} & $\sim$\textbf{20\,h} \\
 \bottomrule
 \end{tabular}
 \end{table}
